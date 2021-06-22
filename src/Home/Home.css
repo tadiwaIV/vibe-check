@@ -1,0 +1,504 @@
+@media screen and (max-width:768px){
+  .home-bg .text-box{
+    width: 100% !important;
+    margin:40px 0 40px 15px !important;
+  }
+
+  .heading{
+    margin-top: 50px !important;
+  }
+
+  .our-story .headline{
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .our-story .headline .background-text{
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .our-story .text-box{
+    width:100% !important;
+    margin:0 !important;
+  }
+
+  .our-story .img img{
+    width:100% !important;
+  }
+
+  .popular .popular-grid{
+    margin: 25px 0 0 0px !important;
+  }
+
+  .popular .destination .img img{
+    width: 100%!important;
+    height: 70vh !important;
+  }
+
+  .popular .destination{
+    margin-right: 0 !important;
+  }
+
+  .recent-trips .recent-trips-grid{
+    margin: 25px 0 0 0px !important;
+  }
+
+  .recent-trips .card .card-img-top{
+    width: 90vw !important;
+    height: 70vh !important;
+  }
+
+  .recent-trips .trip{
+    margin-top: 75px !important;
+  }
+
+  .journey .journey-grid .journey-price-bg{
+    height: 80vh !important;
+    margin-bottom: 50px !important;
+  }
+
+  .journey .journey-grid .journey-price-bg .img {
+    height: 80vh !important;
+    width: 100% !important;
+  }
+
+  .journey .journey-grid .journey-price-bg img {
+    height: 80vh !important;
+    width: 100%!important;
+  }
+
+  .journey .img .price h3{
+    font-size: 24px !important;
+  }
+
+  .journey .img .price a{
+    padding: 5px 15px !important;
+    font-size: 16px !important;
+  }
+
+}
+
+@media screen and (max-width:992px){
+  .home-bg .text-box{
+    width: 70% !important;
+    margin: 80px 0 80px 30px !important;
+  }
+
+  .heading{
+    margin-top: 75px !important;
+  }
+
+  .our-story .headline{
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .our-story .headline .background-text{
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .our-story .text-box{
+    width:100% !important;
+    margin:0 !important;
+  }
+
+  .our-story .img img{
+    width:100% !important;
+  }
+
+  .popular .popular-grid{
+    margin: 25px 0 0 0px !important;
+  }
+
+  .popular .destination .img img{
+    width: 100%!important;
+    height: 70vh !important;
+  }
+
+  .popular .destination{
+    margin-right: 0 !important;
+  }
+
+  .recent-trips .recent-trips-grid{
+    margin: 0 !important;
+  }
+
+  .recent-trips .card .card-img-top{
+    width: 100%!important;
+    height: 70vh !important;
+  }
+
+  .recent-trips .trip{
+    margin-bottom: 0px !important;
+    margin-top: 50px !important;
+  }
+
+  .journey .journey-grid .journey-price-bg{
+    height: 80vh !important;
+    margin-bottom: 50px !important;
+  }
+
+  .journey .journey-grid .journey-price-bg .img {
+    height: 80vh !important;
+    width: 100% !important;
+  }
+
+  .journey .journey-grid .journey-price-bg img {
+    height: 80vh !important;
+    width: 100%!important;
+  }
+
+  .journey .img .price h3{
+    font-size: 24px !important;
+  }
+
+  .journey .img .price a{
+    padding: 5px 15px !important;
+    font-size: 16px !important;
+  }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1046px){
+  .popular .popular-grid{
+    margin: 25px 0 0 0px !important;
+  }
+
+  .popular .destination .img img{
+    width: 95vw !important;
+    height: 70vh !important;
+  }
+
+  .popular .destination{
+    margin-right: 250px !important;
+  }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+  .home-bg .text-box{
+    width: 75% !important;
+    margin: 120px 0 120px 45px !important;
+  }
+
+  .our-story .headline{
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .our-story .headline .background-text{
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .our-story .text-box{
+    width:100% !important;
+    margin:0 !important;
+  }
+
+  .our-story .img img{
+    width:100% !important;
+  }
+
+  .heading{
+    margin-top: 75px !important;
+  }
+
+  .recent-trips .card .card-img-top{
+    width:23vw !important;
+    height:42vh !important;
+  }
+
+  .recent-trips .recent-trips-grid{
+    margin: 0 0 0 100px !important;
+  }
+
+  .recent-trips .trip{
+    margin-bottom: 0px !important;
+    margin-top: 50px !important;
+  }
+
+  .journey .journey-grid .journey-price-bg{
+    height: 80vh !important;
+    margin-bottom: 50px !important;
+  }
+
+  .journey .journey-grid .journey-price-bg .img {
+    height: 80vh !important;
+    width: 100% !important;
+  }
+
+  .journey .journey-grid .journey-price-bg img {
+    height: 80vh !important;
+    width: 100%!important;
+  }
+
+  .journey .img .price h3{
+    font-size: 24px !important;
+  }
+
+  .journey .img .price a{
+    padding: 5px 15px !important;
+    font-size: 16px !important;
+  }
+
+
+}
+
+.home-bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("home.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-bg .text-box{
+  margin: 100px 0 100px 100px;
+  color: #eee;
+  width: 30vw;
+}
+
+.home-bg .text-box h1{
+  font-size:48px;
+}
+
+.home-bg .text-box p{
+  margin:20px 0 30px 0;
+  color: #eee;
+}
+
+.home-bg .text-box a{
+  color: #eee;
+  background-color: #00E5E8;
+  font-family: 'Exo', sans-serif;
+  padding: 15px 30px;
+  border-radius:5px
+}
+
+.heading{
+  margin-top: 100px;
+}
+
+.our-story .text-box{
+  margin: 0 0 0 100px;
+}
+
+.our-story .text-box h6{
+  color: #efba6c;
+}
+
+.our-story .headline{
+  position: relative;
+}
+
+.our-story .headline .background-text{
+  font-size: 64px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  bottom: ;
+  z-index: -1;
+}
+
+.our-story .headline .background-text h2{
+  font-size: 72px;
+  letter-spacing: 3px;
+  color: #efefef;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+}
+
+.our-story .img img{
+  width:40vw;
+}
+
+.popular{
+  background-color: #f7fafd;
+  padding-bottom: 100px;
+}
+
+.popular .popular-grid{
+  margin: 25px 0 0 100px;
+}
+
+.popular .text-box{
+  margin-top: 50px;
+  width:100vw;
+  text-align: center;
+}
+
+.popular .destination .img {
+  position: relative;
+  top: 0;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: top ease 0.5s;
+}
+
+.popular .destination .img:hover {
+  top: -10px;
+}
+
+.popular .destination .img img{
+  width:25vw;
+  height:42vh;
+  border-radius: 10px;
+}
+
+.popular .destination .img:hover{
+  color: #ff4a52;
+}
+
+.popular .destination{
+  margin:0 75px 25px 0;
+}
+
+.popular .destination .img h4{
+  font-family: 'Stick', sans-serif;
+}
+
+.recent-trips{
+  background-color: #f7fafd;
+  padding-bottom: 100px
+}
+
+.recent-trips .headline{
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.recent-trips .headline .background-text{
+  font-size: 64px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  bottom:0 ;
+  z-index: -1;
+  width: 100vw;
+}
+
+.recent-trips .headline h2{
+  width: 100vw;
+}
+
+.recent-trips .headline .background-text h2{
+  font-size: 72px;
+  letter-spacing: 3px;
+  color: #efefef;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+}
+
+.recent-trips .headline h6{
+  color: #efba6c;
+}
+
+.recent-trips .recent-trips-grid{
+  margin: 25px 0 0 100px;
+}
+
+.recent-trips .recent-trips-grid .card{
+  border: none;
+}
+
+.recent-trips .card{
+  background-color: #f7fafd;
+}
+
+.recent-trips .card .card-img-top{
+  width:23vw;
+  height:42vh;
+  border-radius: 10px;
+}
+
+.recent-trips .card .card-body{
+  padding: 0;
+  background-color: #f7fafd;
+}
+
+.recent-trips .card .card-body p{
+  color:#aab1b7;
+  margin-top: 10px;
+}
+
+.services{
+
+}
+
+.services .text-box{
+  text-align: center;
+}
+
+.services .text-box span{
+  font-size: 48px;
+  color: #ff4a52;
+}
+
+.services .text-box h4{
+  padding-top: 40px;
+}
+
+.journey .headline h6{
+  color: #efba6c;
+}
+
+.journey .headline{
+  margin-bottom: 25px;
+  position: relative;
+  text-align: center;
+  width:100vw;
+}
+
+.journey .headline .background-text{
+  font-size: 64px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  bottom: ;
+  z-index: -1;
+  width:100vw;
+}
+
+.journey .headline .background-text h2{
+  font-size: 72px;
+  letter-spacing: 3px;
+  color: #efefef;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+}
+
+.journey .journey-grid .journey-price-bg{
+  height: 80vh;
+}
+
+.journey .journey-grid .journey-price-bg img {
+  height: 80vh;
+  width: 25vw
+}
+
+.journey .journey-grid .journey-price-bg .img {
+    position: relative;
+    text-align: center;
+}
+
+.journey .img .price {
+  position: absolute;
+  bottom: 1vh;
+  width: 100%;
+}
+
+.journey .img .price h3{
+  color:#eee;
+  margin-top :20px;
+}
+
+.journey .img .price a{
+  color: #eee;
+  background-color: #00E5E8;
+  font-family: 'Exo', sans-serif;
+  padding: 10px 25px;
+  border-radius: 50px;
+}

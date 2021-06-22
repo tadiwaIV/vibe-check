@@ -797,7 +797,7 @@ const Kruger = () => (
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
                 <div className='description'>
-                  <h6>Private Full-Day Safari Trip</h6>
+                  <h6>Private Full-Day Safari</h6>
                   <div className='rating'>
                     <Rating
                       value='5'

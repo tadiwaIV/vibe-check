@@ -6,38 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pltZiplining from "./pltZiplining.jpg";
-import elephant from "./elephant.jpg";
-import pltHorseback from "./pltHorseback.jpg";
-import pltHiking from "./pltHiking.jpg";
-import pltSpa from "./pltSpa.jpg";
-import pltNature from "./pltNature.jpg";
-import pltWalking from "./pltWalking.jpg";
-import pltMulti from "./pltMulti.jpg";
-import pltExtreme from "./pltExtreme.jpg";
-import plt4WD from "./plt4WD.jpg";
-import pltClimbing from "./pltClimbing.jpg";
-import pltGardenRoute from "./pltGardenRoute.jpg";
-import pltSeals from "./pltSeals.jpg";
-import pltWildCat from "./pltWildCat.jpg";
-import pltZiplineTours from "./pltZiplineTours.jpg";
-import pltGarden from "./pltGarden.jpg";
-import pltHorse from "./pltHorse.jpg";
-import pltAddo from "./pltAddo.jpg";
-import pltTsitsikamma from "./pltTsitsikamma.jpg";
-import pltGameDrive from "./pltGameDrive.jpg";
-import pltCanyoning from "./pltCanyoning.jpg";
-import pltBirds from "./pltBirds.jpg";
-import pltMonkeys from "./pltMonkeys.jpg";
-import pltRobberg from "./pltRobberg.jpg";
-import pltTenikwa from "./pltTenikwa.jpg";
-import pltBirdsOfEden from "./pltBirdsOfEden.jpeg";
-import pltMonkeyLand from "./pltMonkeyLand.jpg";
-import pltBeach from "./pltBeach.jpg";
-import pltElephant from "./pltElephant.jpg";
-import pltPuzzle from "./pltPuzzle.jpg";
-import pltJukani from "./pltJukani.jpg";
-import pltLawnwood from "./pltLawnwood.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -73,61 +41,61 @@ const Plettenberg = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={pltZiplining} />
+                <img src="/img/pltZiplining.jpg" />
                 <div class="description">
                   <h3>Ziplining</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltHorseback} />
+                <img src="/img/pltHorseback.jpg" />
                 <div class="description">
                   <h3>Horseback Riding</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltHiking} />
+                <img src="/img/pltHiking.jpg" />
                 <div class="description">
                   <h3>Hiking</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltSpa} />
+                <img src="/img/pltSpa.jpg" />
                 <div class="description">
                   <h3>Spas &amp; Wellness</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltNature} />
+                <img src="/img/pltNature.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltWalking} />
+                <img src="/img/pltWalking.jpg" />
                 <div class="description">
                   <h3>Walking Trails</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltMulti} />
+                <img src="/img/pltMulti.jpg" />
                 <div class="description">
                   <h3>Multi-Day Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={plt4WD} />
+                <img src="/img/plt4WD.jpg" />
                 <div class="description">
                   <h3>4WD Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltExtreme} />
+                <img src="/img/pltExtreme.jpg" />
                 <div class="description">
                   <h3>Extreme</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={pltClimbing} />
+                <img src="/img/pltClimbing.jpg" />
                 <div class="description">
                   <h3>Climbing</h3>
                 </div>
@@ -143,7 +111,7 @@ const Plettenberg = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={pltGardenRoute} />
+                <img src="/img/pltGardenRoute.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -162,7 +130,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltSeals} />
+                <img src="/img/pltSeals.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -173,7 +141,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltWildCat} />
+                <img src="/img/pltWildCat.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -192,7 +160,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltZiplineTours} />
+                <img src="/img/pltZiplineTours.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -202,7 +170,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltGarden} />
+                <img src="/img/pltGarden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -221,7 +189,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltHorse} />
+                <img src="/img/pltHorse.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -240,7 +208,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltAddo} />
+                <img src="/img/pltAddo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -251,7 +219,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltTsitsikamma} />
+                <img src="/img/pltTsitsikamma.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -270,7 +238,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltGameDrive} />
+                <img src="/img/pltGameDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -298,7 +266,7 @@ const Plettenberg = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={pltCanyoning} />
+                <img src="/img/pltCanyoning.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -316,7 +284,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltBirds} />
+                <img src="/img/pltBirds.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -327,7 +295,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltMonkeys} />
+                <img src="/img/pltMonkeys.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -346,7 +314,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltGardenRoute} />
+                <img src="/img/pltGardenRoute.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -365,7 +333,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltSeals} />
+                <img src="/img/pltSeals.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -376,7 +344,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltWildCat} />
+                <img src="/img/pltWildCat.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -395,7 +363,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltZiplineTours} />
+                <img src="/img/pltZiplineTours.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -405,7 +373,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltGarden} />
+                <img src="/img/pltGarden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -424,7 +392,7 @@ const Plettenberg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={pltHorse} />
+                <img src="/img/pltHorse.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -455,7 +423,7 @@ const Plettenberg = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltRobberg} />
+                    <Card.Img variant="top" src="/img/pltRobberg.jpg" />
                     <Card.Body>
                       <Card.Title>Robberg Nature Reserve</Card.Title>
                       <Card.Text>
@@ -471,7 +439,7 @@ const Plettenberg = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -489,7 +457,7 @@ const Plettenberg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltTenikwa} />
+                    <Card.Img variant="top" src="/img/pltTenikwa.jpg" />
                     <Card.Body>
                       <Card.Title>Tenikwa Wildlife Awareness Center</Card.Title>
                       <Card.Text>
@@ -504,7 +472,7 @@ const Plettenberg = () => (
                         <p>Nature & Wildlife Areas</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -522,7 +490,7 @@ const Plettenberg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltBirdsOfEden} />
+                    <Card.Img variant="top" src="/img/pltBirdsOfEden.jpg" />
                     <Card.Body>
                       <Card.Title>Birds of Eden</Card.Title>
                       <Card.Text>
@@ -537,7 +505,7 @@ const Plettenberg = () => (
                         <p>Nature & Wildlife Areas</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -559,7 +527,7 @@ const Plettenberg = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltMonkeyLand} />
+                    <Card.Img variant="top" src="/img/pltMonkeyLand.jpg" />
                     <Card.Body>
                       <Card.Title>Monkeyland Primate Sanctuary </Card.Title>
                       <Card.Text>
@@ -579,7 +547,7 @@ const Plettenberg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltBeach} />
+                    <Card.Img variant="top" src="/img/pltBeach.jpg" />
                     <Card.Body>
                       <Card.Title>Plettenberg Beach</Card.Title>
                       <Card.Text>
@@ -594,7 +562,7 @@ const Plettenberg = () => (
                         <p>Beaches</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -612,7 +580,7 @@ const Plettenberg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltElephant} />
+                    <Card.Img variant="top" src="/img/pltElephant.jpg" />
                     <Card.Body>
                       <Card.Title>Elephant Sanctuary The Crags</Card.Title>
                       <Card.Text>
@@ -627,7 +595,7 @@ const Plettenberg = () => (
                         <p>Nature & Wildlife Areas</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -649,7 +617,7 @@ const Plettenberg = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltPuzzle} />
+                    <Card.Img variant="top" src="/img/pltPuzzle.jpg" />
                     <Card.Body>
                       <Card.Title>Plett Puzzle Park</Card.Title>
                       <Card.Text>
@@ -668,7 +636,7 @@ const Plettenberg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltJukani} />
+                    <Card.Img variant="top" src="/img/pltJukani.jpg" />
                     <Card.Body>
                       <Card.Title>Jukani Wildlife Sanctuary</Card.Title>
                       <Card.Text>
@@ -684,7 +652,7 @@ const Plettenberg = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -702,7 +670,7 @@ const Plettenberg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={pltLawnwood} />
+                    <Card.Img variant="top" src="/img/pltLawnwood.jpg" />
                     <Card.Body>
                       <Card.Title>Lawnwood Snake Sanctuary</Card.Title>
                       <Card.Text>
@@ -717,7 +685,7 @@ const Plettenberg = () => (
                         <p>Educational Sites</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>

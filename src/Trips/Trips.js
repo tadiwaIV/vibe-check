@@ -1,16 +1,9 @@
-import './Trips.css';
 import {React ,useState, onValueChange} from "react";
 import {Container, Row, Col, Button, Form, Card} from 'react-bootstrap';
 import Rating from 'react-star-rating-lite';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import MultiRangeSlider from ".././Components/MultiRangeSlider.js";
-import maldives from "./maldives.jpg";
-import newOrleans from "./new-orleans.jpg";
-import marrakesh from "./marrakesh.jpg";
-import capeTown from "./cape-town.jpg";
-import dubai from "./dubai.jpg";
-import dubrovnik from "./dubrovnik.jpg";
 
 function Trips() {
   return (
@@ -90,7 +83,7 @@ function Trips() {
           <Row>
             <Col md={6}>
               <Card className='book-now-card'>
-                <Card.Img variant="top" src={maldives} />
+                <Card.Img variant="top" src="/img/maldives-trips.jpg" alt="Maldives" />
                 <Card.Body>
                   <Card.Title>
                     <h5>South Male Atoll </h5>
@@ -111,7 +104,7 @@ function Trips() {
                 </Card.Body>
               </Card>
               <Card className='book-now-card'>
-                <Card.Img variant="top" src={marrakesh} />
+                <Card.Img variant="top" src="/img/marrakesh.jpg" alt="Marrakesh" />
                 <Card.Body>
                   <Card.Title>
                     <h5>Marrakesh </h5>
@@ -132,7 +125,7 @@ function Trips() {
                 </Card.Body>
               </Card>
               <Card className='book-now-card'>
-                <Card.Img variant="top" src={newOrleans} />
+                <Card.Img variant="top" src="/img/new-orleans.jpg" alt="New Orleans" />
                 <Card.Body>
                   <Card.Title>
                     <h5>New Orleans </h5>
@@ -155,7 +148,7 @@ function Trips() {
             </Col>
             <Col md={6}>
               <Card className='book-now-card'>
-                <Card.Img variant="top" src={dubai} />
+                <Card.Img variant="top" src="/img/dubai.jpg" alt="Dubai" />
                 <Card.Body>
                   <Card.Title>
                     <h5>Dubai </h5>
@@ -176,7 +169,7 @@ function Trips() {
                 </Card.Body>
               </Card>
               <Card className='book-now-card'>
-                <Card.Img variant="top" src={capeTown} />
+                <Card.Img variant="top" src="/img/cape-town.jpg" alt="Cape Town" />
                 <Card.Body>
                   <Card.Title>
                     <h5>Cape Town </h5>
@@ -197,7 +190,7 @@ function Trips() {
                 </Card.Body>
               </Card>
               <Card className='book-now-card'>
-                <Card.Img variant="top" src={dubrovnik} />
+                <Card.Img variant="top" src="/img/dubrovnik.jpg" alt="Dubrovnik" />
                 <Card.Body>
                   <Card.Title>
                     <h5>Dubrovnik </h5>

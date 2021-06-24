@@ -16,7 +16,7 @@ const [isOpen, setOpen] = useState(false);
     <div className="footer heading" >
       <Container className="" fluid>
         <Row className="content">
-          <Col sm={3} md={4} xl={3} className="details">
+          <Col sm={12} md={4} xl={3} className="details">
             <h3  className="title"><span><FontAwesomeIcon className="icon" icon= {faCalendarCheck} size="lg" /> Vibe Check</span></h3>
             <ul >
               <li>29 Windermere Rd, Humewood </li>
@@ -34,7 +34,7 @@ const [isOpen, setOpen] = useState(false);
               </li>
             </ul>
           </Col>
-          <Col sm={2} md={4} xl={3} className="company">
+          <Col sm={12} md={4} xl={3} className="company">
             <h5 className="title"> Company</h5>
             <ul>
               <li>Pricing</li>
@@ -43,7 +43,7 @@ const [isOpen, setOpen] = useState(false);
               <li>Contact</li>
             </ul>
           </Col>
-          <Col sm={3} md={4} xl={3} className="popular-destinations">
+          <Col sm={12} md={4} xl={3} className="popular-destinations">
             <h5 className="title"> Popular destinations</h5>
             <Row>
               <Col sm>
@@ -64,7 +64,7 @@ const [isOpen, setOpen] = useState(false);
               </Col>
             </Row>
           </Col>
-          <Col xl={3} className="newsletter">
+          <Col sm={12} xl={3} className="newsletter">
             <h5 className="title"> Newsletter</h5>
             <ul>
               <li className="description">Sign up by adding your e-mail and keep up-to-date and receive the latest news and specials from <span>Vibe Check </span>

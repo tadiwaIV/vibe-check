@@ -1,6 +1,5 @@
 import React from "react";
 import {Container, Row, Col, Button, Card, Form} from 'react-bootstrap';
-import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";

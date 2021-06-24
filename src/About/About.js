@@ -1,18 +1,9 @@
 import React from "react";
-import {Container, Row, Col, Button} from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import './About.css';
+import {Container, Card, Row, Col, Button} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldAlt } from "@fortawesome/free-solid-svg-icons";
 import Form from 'react-bootstrap/Form';
 import CountUp from 'react-countup';
-import background from "./background.jpg";
-import sunset from "./sunset.jpg";
-import cityBoat from "./city-boat.jpg";
-import friends from "./friends.jpg";
-import john from "./john.jpg";
-import jane from "./jane.jpg";
-import hayleigh from "./hayleigh.jpg";
 
 const About = () => (
   <div>
@@ -55,14 +46,14 @@ const About = () => (
         <Col md={4}>
           <div className="img">
             <img
-              src={sunset}
+              src="/img/sunset.jpg" alt="sunset"
             />
           </div>
         </Col>
         <Col md={6}>
           <div className="img">
             <img
-              src={cityBoat}
+              src="/img/city-boat.jpg" alt="cityBoat"
             />
           </div>
         </Col>
@@ -93,7 +84,7 @@ const About = () => (
         <Col sm={6}>
           <div className="img">
             <img
-              src={friends}
+              src="/img/friends.jpg" alt="friends"
             />
           </div>
         </Col>
@@ -139,7 +130,7 @@ const About = () => (
           <Row className="our-team-grid">
             <Col lg={4}>
               <Card >
-                <Card.Img variant="top" src={john} />
+                <Card.Img variant="top" src="/img/john.jpg" alt="John" />
                 <Card.Body>
                   <Card.Title>
                     <h5>John Doe</h5>
@@ -154,7 +145,7 @@ const About = () => (
             </Col>
             <Col lg={4}>
               <Card >
-                <Card.Img variant="top" src={jane} />
+                <Card.Img variant="top" src="/img/jane.jpg" alt="Jane" />
                 <Card.Body>
                   <Card.Title>
                     <h5>Jane Doe</h5>
@@ -169,7 +160,7 @@ const About = () => (
             </Col>
             <Col lg={4}>
               <Card >
-                <Card.Img variant="top" src={hayleigh} />
+                <Card.Img variant="top" src="/img/hayleigh.jpg" alt="Hayleigh" />
                 <Card.Body>
                   <Card.Title>
                     <h5>Hayleigh Smith</h5>

@@ -6,61 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import jhbZiplining from "./jhbZiplining.jpg";
-import jhbActivity from "./jhbActivity.jpg";
-import jhbEcoTours from "./jhbEcoTours.jpg";
-import jhbParks from "./jhbParks.jpg";
-import jhbExtreme from "./jhbExtreme.jpg";
-import jhbSafari from "./jhbSafari.jpg";
-import jhbMalls from "./jhbMalls.jpg";
-import jhbWildlife from "./jhbWildlife.jpg";
-import jhb4WD from "./jhb4WD.jpg";
-import jhbHorseback from "./jhbHorseback.jpg";
-import jhbHiking from "./jhbHiking.jpg";
-import jhbSoweto from "./jhbSoweto.jpg";
-import jhbMaboneng from "./jhbMaboneng.jpg";
-import jhbPilanesburgReserve from "./jhbPilanesburgReserve.jpg";
-import jhbSowetoWalking from "./jhbSowetoWalking.jpg";
-import jhbMaropengSterkfontein from "./jhbMaropengSterkfontein.jpg";
-import jhbUltimatePilanesburg from "./jhbUltimatePilanesburg.jpg";
-import jhbApartheidMuseumFullDay from "./jhbApartheidMuseumFullDay.jpg";
-import jhbCaptivatingLionPark from "./jhbCaptivatingLionPark.jpg";
-import jhbSightseeing from "./jhbSightseeing.jpg";
-import jhbHalfDaySoweto from "./jhbHalfDaySoweto.jpg";
-import jhbKruger from "./jhbKruger.jpg";
-import jhbPilanesburgFullDay from "./jhbPilanesburgFullDay.jpg";
-import jhbMaropengCradle from "./jhbMaropengCradle.jpg";
-import jhbKrugerPrivate from "./jhbKrugerPrivate.jpg";
-import jhbFullDay from "./jhbFullDay.jpg";
-import jhbLionPark from "./jhbLionPark.jpg";
-import jhbJohannesburgSoweto from "./jhbJohannesburgSoweto.jpg";
-import jhbMagaliesburg from "./jhbMagaliesburg.jpg";
-import jhbBalloon from "./jhbBalloon.jpg";
-import jhbJohannesburgSowetoGuided from "./jhbJohannesburgSowetoGuided.jpg";
-import jhbApartheidMuseum from "./jhbApartheidMuseum.jpg";
-import jhbGautrain from "./jhbGautrain.jpg";
-import jhbMandelaHouse from "./jhbMandelaHouse.jpg";
-import jhbGoldReefCity from "./jhbGoldReefCity.jpg";
-import jhbHectorMemorial from "./jhbHectorMemorial.jpg";
-import jhbHectorMuseum from "./jhbHectorMuseum.jpg";
-import jhbVilikazi from "./jhbVilakazi.jpg";
-import jhbRegina from "./jhbRegina.jpg";
-import jhbConstitutionalHill from "./jhbConstitutionalHill.jpg";
-import jhbCradle from "./jhbCradle.jpg";
-import jhbSowetoWalkingHalfDay from "./jhbSowetoWalkingHalfDay.jpg";
-import jhbRhinoLionPark from "./jhbRhinoLionPark.jpg";
-import jhbMagaliesburgBallonSafari from "./jhbMagaliesburgBalloonSafari.jpg";
-import jhbSowetoHalfDay from "./jhbSowetoHalfDay.jpg";
-import jhbApartheidSoweto from "./jhbApartheidSoweto.jpg";
-import jhbPretoriaCity from "./jhbPretoriaCity.jpg";
-import jhbLesedi from "./jhbLesedi.jpg";
-import jhbSowetoPrivate from "./jhbSowetoPrivate.jpg";
-import jhbLocalSoweto from "./jhbLocalSoweto.jpg";
-import jhbUltimatePilanesburgFullDay from "./jhbUltimatePilanesburgFullDay.jpg";
-import jhbPilanesburgReserveFullDay from "./jhbPilanesburgReserveFullDay.jpg";
-import jhbPilanesburgOpenVehicle from "./jhbPilanesburgOpenVehicle.jpg";
-import jhbCradleLionPark from "./jhbCradleLionPark.jpg";
-import jhbMandelaLegacy from "./jhbMandelaLegacy.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -96,67 +41,67 @@ const Johannesburg = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={jhbZiplining} />
+                <img src="/img/jhbZiplining.jpg" />
                 <div class="description">
                   <h3>Ziplining</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbActivity} />
+                <img src="/img/jhbActivity.jpg" />
                 <div class="description">
                   <h3>Activity Centres</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbEcoTours} />
+                <img src="/img/jhbEcoTours.jpg" />
                 <div class="description">
                   <h3>Eco Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbParks} />
+                <img src="/img/jhbParks.jpg" />
                 <div class="description">
                   <h3>Parks</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbExtreme} />
+                <img src="/img/jhbExtreme.jpg" />
                 <div class="description">
                   <h3>Extreme</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbSafari} />
+                <img src="/img/jhbSafari.jpg" />
                 <div class="description">
                   <h3>Safaris</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbMalls} />
+                <img src="/img/jhbMalls.jpg" />
                 <div class="description">
                   <h3>Shopping Malls</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbWildlife} />
+                <img src="/img/jhbWildlife.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhb4WD} />
+                <img src="/img/jhb4WD.jpg" />
                 <div class="description">
                   <h3>4WD Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbHorseback} />
+                <img src="/img/jhbHorseback.jpg" />
                 <div class="description">
                   <h3>Horseback Riding</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={jhbHiking} />
+                <img src="/img/jhbHiking.jpg" />
                 <div class="description">
                   <h3>Hiking</h3>
                 </div>
@@ -172,7 +117,7 @@ const Johannesburg = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={jhbApartheidMuseumFullDay} />
+                <img src="/img/jhbApartheidMuseumFullDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -191,7 +136,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbCaptivatingLionPark} />
+                <img src="/img/jhbCaptivatingLionPark.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -202,7 +147,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbSightseeing} />
+                <img src="/img/jhbSightseeing.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -221,7 +166,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbHalfDaySoweto} />
+                <img src="/img/jhbHalfDaySoweto.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -232,7 +177,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbSoweto} />
+                <img src="/img/jhbSoweto.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -243,7 +188,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbMaboneng} />
+                <img src="/img/jhbMaboneng.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -262,7 +207,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbPilanesburgReserve} />
+                <img src="/img/jhbPilanesburgReserve.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -281,7 +226,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbSowetoWalking} />
+                <img src="/img/jhbSowetoWalking.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -292,7 +237,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbMaropengSterkfontein} />
+                <img src="/img/jhbMaropengSterkfontein.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -311,7 +256,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbUltimatePilanesburg} />
+                <img src="/img/jhbUltimatePilanesburg.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -339,7 +284,7 @@ const Johannesburg = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={jhbKruger} />
+                <img src="/img/jhbKruger.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -358,7 +303,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbPilanesburgFullDay} />
+                <img src="/img/jhbPilanesburgFullDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -369,7 +314,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbMaropengCradle} />
+                <img src="/img/jhbMaropengCradle.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -388,7 +333,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbKrugerPrivate} />
+                <img src="/img/jhbKrugerPrivate.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -399,7 +344,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbFullDay} />
+                <img src="/img/jhbFullDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -410,7 +355,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbLionPark} />
+                <img src="/img/jhbLionPark.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -429,7 +374,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbJohannesburgSoweto} />
+                <img src="/img/jhbJohannesburgSoweto.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -448,7 +393,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbMagaliesburg} />
+                <img src="/img/jhbMagaliesburg.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -459,7 +404,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbBalloon} />
+                <img src="/img/jhbBalloon.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -478,7 +423,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbJohannesburgSowetoGuided} />
+                <img src="/img/jhbJohannesburgSowetoGuided.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -508,7 +453,7 @@ const Johannesburg = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbApartheidMuseum} />
+                    <Card.Img variant="top" src="/img/jhbApartheidMuseum.jpg" />
                     <Card.Body>
                       <Card.Title>Apartheid Museum</Card.Title>
                       <Card.Text>
@@ -524,7 +469,7 @@ const Johannesburg = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={jhbSowetoWalking} />
+                          <Card.Img variant="top" src="/img/jhbSowetoWalking.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -542,7 +487,7 @@ const Johannesburg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbGautrain} />
+                    <Card.Img variant="top" src="/img/jhbGautrain.jpg" />
                     <Card.Body>
                       <Card.Title>Gautrain</Card.Title>
                       <Card.Text>
@@ -557,7 +502,7 @@ const Johannesburg = () => (
                         <p>Public Transportation Systems</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={jhbSowetoWalking} />
+                          <Card.Img variant="top" src="/img/jhbSowetoWalking.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -575,7 +520,7 @@ const Johannesburg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbMandelaHouse} />
+                    <Card.Img variant="top" src="/img/jhbMandelaHouse.jpg" />
                     <Card.Body>
                       <Card.Title>Nelson Mandela's House</Card.Title>
                       <Card.Text>
@@ -590,7 +535,7 @@ const Johannesburg = () => (
                         <p>Historic Sites</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={jhbSowetoWalking} />
+                          <Card.Img variant="top" src="/img/jhbSowetoWalking.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -612,7 +557,7 @@ const Johannesburg = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbGoldReefCity} />
+                    <Card.Img variant="top" src="/img/jhbGoldReefCity.jpg" />
                     <Card.Body>
                       <Card.Title>Gold Reef City</Card.Title>
                       <Card.Text>
@@ -632,7 +577,7 @@ const Johannesburg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbHectorMemorial} />
+                    <Card.Img variant="top" src="/img/jhbHectorMemorial.jpg" />
                     <Card.Body>
                       <Card.Title>Hector Pieterson Memorial</Card.Title>
                       <Card.Text>
@@ -647,7 +592,7 @@ const Johannesburg = () => (
                         <p>Monuments &amp; Statues</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={jhbSowetoWalking} />
+                          <Card.Img variant="top" src="/img/jhbSowetoWalking.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -665,7 +610,7 @@ const Johannesburg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbHectorMuseum} />
+                    <Card.Img variant="top" src="/img/jhbHectorMuseum.jpg" />
                     <Card.Body>
                       <Card.Title>Hector Pieterson Museum</Card.Title>
                       <Card.Text>
@@ -680,7 +625,7 @@ const Johannesburg = () => (
                         <p>Historic Museums</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={jhbSowetoWalking} />
+                          <Card.Img variant="top" src="/img/jhbSowetoWalking.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -702,7 +647,7 @@ const Johannesburg = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbVilikazi} />
+                    <Card.Img variant="top" src="/img/jhbVilikazi.jpg" />
                     <Card.Body>
                       <Card.Title>Vilikazi Street</Card.Title>
                       <Card.Text>
@@ -722,7 +667,7 @@ const Johannesburg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbRegina} />
+                    <Card.Img variant="top" src="/img/jhbRegina.jpg" />
                     <Card.Body>
                       <Card.Title>Regina Mundi</Card.Title>
                       <Card.Text>
@@ -738,7 +683,7 @@ const Johannesburg = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={jhbSowetoWalking} />
+                          <Card.Img variant="top" src="/img/jhbSowetoWalking.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -756,7 +701,7 @@ const Johannesburg = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={jhbConstitutionalHill} />
+                    <Card.Img variant="top" src="/img/jhbConstitutionalHill.jpg" />
                     <Card.Body>
                       <Card.Title>Constitution Hill Humans Rights Precinct</Card.Title>
                       <Card.Text>
@@ -771,7 +716,7 @@ const Johannesburg = () => (
                         <p>Historic Sites • Points of Interest &amp; Landmarks</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={jhbSowetoWalking} />
+                          <Card.Img variant="top" src="/img/jhbSowetoWalking.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -798,7 +743,7 @@ const Johannesburg = () => (
           <div className="multi-day-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={jhbCradle} />
+                <img src="/img/jhbCradle.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -817,7 +762,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbSowetoWalkingHalfDay} />
+                <img src="/img/jhbSowetoWalkingHalfDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -828,7 +773,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbRhinoLionPark} />
+                <img src="/img/jhbRhinoLionPark.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -847,7 +792,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbMagaliesburg} />
+                <img src="/img/jhbMagaliesburg.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -858,7 +803,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbSowetoHalfDay} />
+                <img src="/img/jhbSowetoHalfDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -869,7 +814,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbApartheidSoweto} />
+                <img src="/img/jhbApartheidSoweto.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -888,7 +833,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbPretoriaCity} />
+                <img src="/img/jhbPretoriaCity.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -907,7 +852,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbLesedi} />
+                <img src="/img/jhbLesedi.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -918,7 +863,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbSowetoPrivate} />
+                <img src="/img/jhbSowetoPrivate.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -937,7 +882,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbLocalSoweto} />
+                <img src="/img/jhbLocalSoweto.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -965,7 +910,7 @@ const Johannesburg = () => (
           <div className="shore-excursions">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={jhbJohannesburgSoweto} />
+                <img src="/img/jhbJohannesburgSoweto.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -984,7 +929,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbPilanesburgReserve} />
+                <img src="/img/jhbPilanesburgReserve.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -995,7 +940,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbApartheidMuseum} />
+                <img src="/img/jhbApartheidMuseum.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1006,7 +951,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbMandelaLegacy} />
+                <img src="/img/jhbMandelaLegacy.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1025,7 +970,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbApartheidMuseumFullDay} />
+                <img src="/img/jhbApartheidMuseumFullDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1044,7 +989,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbJohannesburgSowetoGuided} />
+                <img src="/img/jhbJohannesburgSowetoGuided.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1055,7 +1000,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbUltimatePilanesburgFullDay} />
+                <img src="/img/jhbUltimatePilanesburgFullDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1074,7 +1019,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbPilanesburgReserveFullDay} />
+                <img src="/img/jhbPilanesburgReserveFullDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1093,7 +1038,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbPilanesburgOpenVehicle} />
+                <img src="/img/jhbPilanesburgOpenVehicle.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1104,7 +1049,7 @@ const Johannesburg = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={jhbCradleLionPark} />
+                <img src="/img/jhbCradleLionPark.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>

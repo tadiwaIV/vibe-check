@@ -4,11 +4,10 @@ import Card from 'react-bootstrap/Card';
 import './LandingPage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldAlt, faMapPin, faHeadphonesAlt } from "@fortawesome/free-solid-svg-icons";
-import heroImage from './hero-image.jpg'
 import Form from 'react-bootstrap/Form'
 
 const LandingPage = () => (
-  <div>
+  <div className="main">
     <Container className="landing-page" fluid>
       <Row>
         <div className="text-box">
@@ -23,13 +22,13 @@ const LandingPage = () => (
         <div className="calculate">
           <h4> Where do you want to go?</h4>
           <Form.Group controlId="formCalculate">
-            <Form.Control className="input" type="text" placeholder="Where to?" />
+            <Form.Control className="input input-text" type="text" placeholder="Where to?" />
           </Form.Group>
           <Form.Group controlId="formCalculate">
-            <Form.Control className="input" type="date" placeholder="Date" />
+            <Form.Control className="input input-date" type="date" placeholder="Date" />
           </Form.Group>
           <Form.Group controlId="exampleForm.SelectCustom">
-            <Form.Control className="input" as="select" placeholder="Travel type" custom>
+            <Form.Control className="input input-select" as="select" placeholder="Travel type" custom>
               <option value="" selected disabled hidden>Travel Type</option>
               <option>Airline</option>
               <option>Train</option>

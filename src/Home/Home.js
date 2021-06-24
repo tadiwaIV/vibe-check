@@ -1,24 +1,7 @@
-import React from "react";
-import {ImageBackground, View, Text} from 'react';
-import {Container, Row, Col, Button} from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import './Home.css';
+import {React, ImageBackground, View, Text} from 'react';
+import {Container, Card, Form, Row, Col, Button} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldAlt, faMapPin, faHeadphonesAlt, faPlaneDeparture, faHotel, faGlobeAfrica } from "@fortawesome/free-solid-svg-icons";
-import Form from 'react-bootstrap/Form'
-import ourStory from './our-story.jpg';
-import newZealand from './new-zealand.jpg';
-import barcelona from './barcelona.jpg';
-import maui from './maui.jpg';
-import boraBora from './bora-bora.jpg';
-import paris from './paris.jpg';
-import rome from './rome.jpg';
-import ibiza from './ibiza.jpg';
-import maldives from './maldives.jpg';
-import phuket from './phuket.jpg';
-import bali from './bali.jpg';
-import sydney from './sydney.jpg';
-import stLucia from './st-lucia.jpg';
 
 const Home = () => (
   <div >
@@ -51,7 +34,7 @@ const Home = () => (
         <Col sm={6}>
           <div className="img">
             <img
-              src={ourStory}
+              src="/img/our-story.jpg"
             />
           </div>
         </Col>
@@ -72,7 +55,7 @@ const Home = () => (
           <div className="img">
             <h4>New Zealand</h4>
             <img
-              src={newZealand}
+              src="/img/new-zealand.jpg" alt="New Zealand"
             />
           </div>
         </Col>
@@ -80,7 +63,7 @@ const Home = () => (
           <div className="img">
             <h4>Barcelona</h4>
             <img
-              src={barcelona}
+              src="/img/barcelona.jpg" alt="Barcelona"
             />
           </div>
         </Col>
@@ -88,7 +71,7 @@ const Home = () => (
           <div className="img">
             <h4>Maui</h4>
             <img
-              src={maui}
+              src="/img/maui.jpg" alt="Maui"
             />
           </div>
         </Col>
@@ -98,7 +81,7 @@ const Home = () => (
           <div className="img">
             <h4>Bora Bora</h4>
             <img
-              src={boraBora}
+              src="/img/bora-bora.jpg" alt="Bora Bora"
             />
           </div>
         </Col>
@@ -106,7 +89,7 @@ const Home = () => (
           <div className="img">
             <h4>Paris</h4>
             <img
-              src={paris}
+              src="/img/paris.jpg" alt="Paris"
             />
           </div>
         </Col>
@@ -114,7 +97,7 @@ const Home = () => (
           <div className="img">
             <h4>Rome</h4>
             <img
-              src={rome}
+              src="/img/rome.jpg" alt="Rome"
             />
           </div>
         </Col>
@@ -154,7 +137,7 @@ const Home = () => (
       <Row className='recent-trips-grid  no-gutters'>
         <Col lg={4} className='trip'>
           <Card >
-            <Card.Img variant="top" src={ibiza} />
+            <Card.Img variant="top" src="/img/ibiza.jpg" alt="Ibiza" />
             <Card.Body>
               <Card.Text>
                 <p>25 May,2021</p>
@@ -165,7 +148,7 @@ const Home = () => (
         </Col>
         <Col lg={4} className='trip'>
           <Card >
-            <Card.Img variant="top" src={maldives} />
+            <Card.Img variant="top" src="/img/maldives.jpg" alt="Maldives" />
             <Card.Body>
               <Card.Text>
                 <p>25 May,2021</p>
@@ -176,7 +159,7 @@ const Home = () => (
         </Col>
         <Col lg={4} className='trip'>
           <Card >
-            <Card.Img variant="top" src={phuket} />
+            <Card.Img variant="top" src="/img/phuket.jpg" alt="Phuket" />
             <Card.Body>
               <Card.Text>
                 <p>25 May,2021</p>
@@ -203,7 +186,7 @@ const Home = () => (
             <Col lg={4} className='journey-price-bg' >
               <div className="img">
                 <img
-                  src={bali}
+                  src="/img/bali.jpg" alt="Bali"
                 />
                 <div class="price">
                   <a href='#' > R 999,99</a>
@@ -214,7 +197,7 @@ const Home = () => (
             <Col lg={4} className='journey-price-bg' >
             <div className="img">
               <img
-                src={sydney}
+                src="/img/sydney.jpg" alt="Sydney"
               />
               <div class="price">
                 <a href='#' > R 999,99</a>
@@ -225,7 +208,7 @@ const Home = () => (
             <Col lg={4} className='journey-price-bg' >
             <div className="img">
               <img
-                src={stLucia}
+                src="/img/st-lucia.jpg" alt="St Lucia"
               />
               <div class="price">
                 <a href='#' > R 999,99</a>

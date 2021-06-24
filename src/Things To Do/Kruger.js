@@ -6,46 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import krugerCulture from "./krugerCulture.jpg";
-import krugerSpas from "./krugerSpas.jpg";
-import krugerOutdoorTours from "./krugerOutdoorTours.jpg";
-import krugerKidsSafari from "./krugerKidsSafari.jpg";
-import krugerTourists from "./krugerTourists.jpg";
-import krugerNature from "./krugerNature.jpg";
-import krugerHalfDayGameDrive from "./krugerHalfDayGameDrive.jpg";
-import krugerUnderCanvas from "./krugerUnderCanvas.jpg";
-import krugerPanoramaRoute from "./krugerPanoramaRoute.jpg";
-import krugerGreaterKruger from "./krugerGreaterKruger.jpg";
-import krugerPrivateLuxury from "./krugerPrivateLuxury.jpg";
-import krugerSkukuza from "./krugerSkukuza.jpg";
-import krugerAllIncl from "./krugerAllIncl.jpg";
-import kruger3DayPrivateTour from "./kruger3DayPrivateTour.jpg";
-import krugerClassic from "./krugerClassic.jpg";
-import krugerPrivateGuidedAfternoonGameDrive from "./krugerPrivateGuidedAfternoonGameDrive.jpg";
-import krugerPrivateGuidedTour from "./krugerPrivateGuidedTour.jpg";
-import krugerPrivateGudedGameDrive from "./krugerPrivateGudedGameDrive.jpg";
-import krugerPrivateAfternoonGuidedGameDrive from "./krugerPrivateAfternoonGuidedGameDrive.jpg";
-import krugerPrivateVehicleGuide from "./krugerPrivateVehicleGuide.jpg";
-import krugerFullDayTour from "./krugerFullDayTour.jpg";
-import krugerLonelyBullTrail from "./krugerLonelyBullTrail.jpg";
-import krugerBlydeRiver from "./krugerBlydeRiver.jpg";
-import krugerMorningSafari from "./krugerMorningSafari.jpg";
-import krugerVillageTours from "./krugerVillageTours.jpg";
-import krugerPrivateGuidedSafari from "./krugerPrivateGuidedSafari.jpg";
-import krugerAfternoonSafari from "./krugerAfternoonSafari.jpg";
-import krugerFullDaySafari from "./krugerFullDaySafari.jpg";
-import krugerGuidedSafariFromHazyview from "./krugerGuidedSafariFromHazyview.jpg";
-import krugerOpenVehicle from "./krugerOpenVehicle.jpg";
-import krugerSafariFromHazyview from "./krugerSafariFromHazyview.jpg";
-import krugerPrivateFullDaySafari from "./krugerPrivateFullDaySafari.jpg";
-import krugerNkuhlu from "./krugerNkuhlu.jpg";
-import krugerWolhuter from "./krugerWolhuter.jpg";
-import krugerPhalaborwaGate from "./krugerPhalaborwaGate.jpg";
-import krugerNapi from "./krugerNapi.jpg";
-import krugerTshokwane from "./krugerTshokwane.jpg";
-import krugerNyalaland from "./krugerNyalaland.jpg";
-import krugerOlifants from "./krugerOlifants.jpg";
-import krugerBushmans from "./krugerBushmans.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -81,31 +41,31 @@ const Kruger = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={krugerCulture} />
+                <img src="/img/krugerCulture.jpg" />
                 <div class="description">
                   <h3>Art &amp; cultural attractions</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={krugerSpas} />
+                <img src="/img/krugerSpas.jpg" />
                 <div class="description">
                   <h3>Spas &amp; Wellness</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={krugerNature} />
+                <img src="/img/krugerNature.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={krugerTourists} />
+                <img src="/img/krugerTourists.jpg" />
                 <div class="description">
                   <h3>Tours perfect for tourists</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={krugerOutdoorTours} />
+                <img src="/img/krugerOutdoorTours.jpg" />
                 <div class="description">
                   <h3>Outdoor Tours</h3>
                 </div>
@@ -121,7 +81,7 @@ const Kruger = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={krugerMorningSafari} />
+                <img src="/img/krugerMorningSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -140,7 +100,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerOpenVehicle} />
+                <img src="/img/krugerOpenVehicle.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -151,7 +111,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerVillageTours} />
+                <img src="/img/krugerVillageTours.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -170,7 +130,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateGuidedSafari} />
+                <img src="/img/krugerPrivateGuidedSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -188,7 +148,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerAfternoonSafari} />
+                <img src="/img/krugerAfternoonSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -199,7 +159,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerSafariFromHazyview} />
+                <img src="/img/krugerSafariFromHazyview.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -210,7 +170,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateFullDaySafari} />
+                <img src="/img/krugerPrivateFullDaySafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -228,7 +188,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerFullDaySafari} />
+                <img src="/img/krugerFullDaySafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -239,7 +199,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerHalfDayGameDrive} />
+                <img src="/img/krugerHalfDayGameDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -258,7 +218,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerBlydeRiver} />
+                <img src="/img/krugerBlydeRiver.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -286,7 +246,7 @@ const Kruger = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={krugerKidsSafari} />
+                <img src="/img/krugerKidsSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -305,7 +265,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerGuidedSafariFromHazyview} />
+                <img src="/img/krugerGuidedSafariFromHazyview.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -324,7 +284,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateVehicleGuide} />
+                <img src="/img/krugerPrivateVehicleGuide.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -335,7 +295,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerFullDayTour} />
+                <img src="/img/krugerFullDayTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -346,7 +306,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerFullDaySafari} />
+                <img src="/img/krugerFullDaySafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -357,7 +317,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={kruger3DayPrivateTour} />
+                <img src="/img/kruger3DayPrivateTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -376,7 +336,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerClassic} />
+                <img src="/img/krugerClassic.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -395,7 +355,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateGudedGameDrive} />
+                <img src="/img/krugerPrivateGudedGameDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -406,7 +366,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateGuidedAfternoonGameDrive} />
+                <img src="/img/krugerPrivateGuidedAfternoonGameDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -425,7 +385,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateGuidedTour} />
+                <img src="/img/krugerPrivateGuidedTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -455,7 +415,7 @@ const Kruger = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerLonelyBullTrail} />
+                    <Card.Img variant="top" src="/img/krugerLonelyBullTrail.jpg" />
                     <Card.Body>
                       <Card.Title>Lonely Bull Trail</Card.Title>
                       <Card.Text>
@@ -470,7 +430,7 @@ const Kruger = () => (
                         <p>Hiking trails</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={krugerVillageTours} />
+                          <Card.Img variant="top" src="/img/krugerVillageTours.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -488,7 +448,7 @@ const Kruger = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerPhalaborwaGate} />
+                    <Card.Img variant="top" src="/img/krugerPhalaborwaGate.jpg" />
                     <Card.Body>
                       <Card.Title>Game Drives at Phalaborwa Gate</Card.Title>
                       <Card.Text>
@@ -503,7 +463,7 @@ const Kruger = () => (
                         <p>Hiking Trails</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={krugerVillageTours} />
+                          <Card.Img variant="top" src="/img/krugerVillageTours.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -521,7 +481,7 @@ const Kruger = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerTshokwane} />
+                    <Card.Img variant="top" src="/img/krugerTshokwane.jpg" />
                     <Card.Body>
                       <Card.Title>Tshokwane Picnic Site</Card.Title>
                       <Card.Text>
@@ -536,7 +496,7 @@ const Kruger = () => (
                         <p>Points of Interest &amp; Landmarks</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={krugerVillageTours} />
+                          <Card.Img variant="top" src="/img/krugerVillageTours.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -558,7 +518,7 @@ const Kruger = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerNkuhlu} />
+                    <Card.Img variant="top" src="/img/krugerNkuhlu.jpg" />
                     <Card.Body>
                       <Card.Title>Nkuhlu Picnic Site</Card.Title>
                       <Card.Text>
@@ -578,7 +538,7 @@ const Kruger = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerBushmans} />
+                    <Card.Img variant="top" src="/img/krugerBushmans.jpg" />
                     <Card.Body>
                       <Card.Title>Bushmans Trail</Card.Title>
                       <Card.Text>
@@ -593,7 +553,7 @@ const Kruger = () => (
                         <p>Hiking Trails</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={krugerVillageTours} />
+                          <Card.Img variant="top" src="/img/krugerVillageTours.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -611,7 +571,7 @@ const Kruger = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerNyalaland} />
+                    <Card.Img variant="top" src="/img/krugerNyalaland.jpg" />
                     <Card.Body>
                       <Card.Title>Nyalaland Trail</Card.Title>
                       <Card.Text>
@@ -626,7 +586,7 @@ const Kruger = () => (
                         <p>Hiking Trail</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={krugerVillageTours} />
+                          <Card.Img variant="top" src="/img/krugerVillageTours.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -648,7 +608,7 @@ const Kruger = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerWolhuter} />
+                    <Card.Img variant="top" src="/img/krugerWolhuter.jpg" />
                     <Card.Body>
                       <Card.Title>Wolhuter Wilderness Trail</Card.Title>
                       <Card.Text>
@@ -668,7 +628,7 @@ const Kruger = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerNapi} />
+                    <Card.Img variant="top" src="/img/krugerNapi.jpg" />
                     <Card.Body>
                       <Card.Title>Napi Wilderness Trail</Card.Title>
                       <Card.Text>
@@ -683,7 +643,7 @@ const Kruger = () => (
                         <p>Hiking Trail</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={krugerVillageTours} />
+                          <Card.Img variant="top" src="/img/krugerVillageTours.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -701,7 +661,7 @@ const Kruger = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={krugerOlifants} />
+                    <Card.Img variant="top" src="/img/krugerOlifants.jpg" />
                     <Card.Body>
                       <Card.Title>Olifants Wilderness Trail</Card.Title>
                       <Card.Text>
@@ -716,7 +676,7 @@ const Kruger = () => (
                         <p>Hiking Trails</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={krugerVillageTours} />
+                          <Card.Img variant="top" src="/img/krugerVillageTours.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -743,7 +703,7 @@ const Kruger = () => (
           <div className="multi-day-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={kruger3DayPrivateTour} />
+                <img src="/img/kruger3DayPrivateTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -762,7 +722,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerSafariFromHazyview} />
+                <img src="/img/krugerSafariFromHazyview.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -773,7 +733,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerClassic} />
+                <img src="/img/krugerClassic.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -792,7 +752,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateFullDaySafari} />
+                <img src="/img/krugerPrivateFullDaySafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -810,7 +770,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateGudedGameDrive} />
+                <img src="/img/krugerPrivateGudedGameDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -821,7 +781,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerFullDaySafari} />
+                <img src="/img/krugerFullDaySafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -832,7 +792,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateGuidedAfternoonGameDrive} />
+                <img src="/img/krugerPrivateGuidedAfternoonGameDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -851,7 +811,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerHalfDayGameDrive} />
+                <img src="/img/krugerHalfDayGameDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -870,7 +830,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateGuidedTour} />
+                <img src="/img/krugerPrivateGuidedTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -889,7 +849,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerBlydeRiver} />
+                <img src="/img/krugerBlydeRiver.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -917,7 +877,7 @@ const Kruger = () => (
           <div className="shore-excursions">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={krugerUnderCanvas} />
+                <img src="/img/krugerUnderCanvas.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -928,7 +888,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerAfternoonSafari} />
+                <img src="/img/krugerAfternoonSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -939,7 +899,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerFullDayTour} />
+                <img src="/img/krugerFullDayTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -950,7 +910,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPanoramaRoute} />
+                <img src="/img/krugerPanoramaRoute.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -968,7 +928,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateVehicleGuide} />
+                <img src="/img/krugerPrivateVehicleGuide.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -979,7 +939,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerGreaterKruger} />
+                <img src="/img/krugerGreaterKruger.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -990,7 +950,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerPrivateLuxury} />
+                <img src="/img/krugerPrivateLuxury.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1009,7 +969,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerAllIncl} />
+                <img src="/img/krugerAllIncl.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1028,7 +988,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerSkukuza} />
+                <img src="/img/krugerSkukuza.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1047,7 +1007,7 @@ const Kruger = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={krugerMorningSafari} />
+                <img src="/img/krugerMorningSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>

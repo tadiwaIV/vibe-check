@@ -6,30 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import elephant from "./elephant.jpg";
-import mosMulti from "./mosMulti.jpg";
-import mosExtreme from "./mosExtreme.jpg";
-import mosMountainBike from "./mosMountainBike.jpg";
-import mosSightseeing from "./mosSightseeing.jpg";
-import mosWildlife from "./mosWildlife.jpg";
-import mosOpenVehicle from "./mosOpenVehicle.jpg";
-import mos4WD from "./mos4WD.jpg";
-import mosGarden from "./mosGarden.jpg";
-import mosDayTour from "./mosDayTour.jpg";
-import mosEco from "./mosEco.jpg";
-import mosSelfDriven from "./mosSelfDriven.jpg";
-import mosMotorcycle from "./mosMotorcycle.jpg";
-import mosSharks from "./mosSharks.jpg";
-import mosGardenRoute from "./mosGardenRoute.jpg";
-import mosBlaize from "./mosBlaize.jpg";
-import mosSantos from "./mosSantos.jpg";
-import mosReedValley from "./mosReedValley.jpg";
-import mosDias from "./mosDias.jpg";
-import mosHartenbos from "./mosHartenbos.jpg";
-import mosJanine from "./mosJanine.jpg";
-import mosLighthouse from "./mosLighthouse.jpg";
-import mosDiazExpress from "./mosDiazExpress.jpg";
-import mosSeabird from "./mosSeabird.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -65,37 +41,37 @@ const MosselBay = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={mosMulti} />
+                <img src="/img/mosMulti.jpg" />
                 <div class="description">
                   <h3>Multi-Day Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={mosExtreme} />
+                <img src="/img/mosExtreme.jpg" />
                 <div class="description">
                   <h3>Extreme</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={mosMountainBike} />
+                <img src="/img/mosMountainBike.jpg" />
                 <div class="description">
                   <h3>Mountain Bike Tours </h3>
                 </div>
               </div>
               <div className="img">
-                <img src={mosSightseeing} />
+                <img src="/img/mosSightseeing.jpg" />
                 <div class="description">
                   <h3>Private Sightseeing Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={mosWildlife} />
+                <img src="/img/mosWildlife.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={mos4WD} />
+                <img src="/img/mos4WD.jpg" />
                 <div class="description">
                   <h3>4WD Tours</h3>
                 </div>
@@ -111,7 +87,7 @@ const MosselBay = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={mosGarden} />
+                <img src="/img/mosGarden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -130,7 +106,7 @@ const MosselBay = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={mosDayTour} />
+                <img src="/img/mosDayTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -141,7 +117,7 @@ const MosselBay = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={mosEco} />
+                <img src="/img/mosEco.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -152,7 +128,7 @@ const MosselBay = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={mosSelfDriven} />
+                <img src="/img/mosSelfDriven.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -172,7 +148,7 @@ const MosselBay = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={mosMotorcycle} />
+                <img src="/img/mosMotorcycle.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -191,7 +167,7 @@ const MosselBay = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={mosOpenVehicle} />
+                <img src="/img/mosOpenVehicle.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -202,7 +178,7 @@ const MosselBay = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={mosSharks} />
+                <img src="/img/mosSharks.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -221,7 +197,7 @@ const MosselBay = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={mosGardenRoute} />
+                <img src="/img/mosGardenRoute.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -243,7 +219,7 @@ const MosselBay = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosBlaize} />
+                    <Card.Img variant="top" src="/img/mosBlaize.jpg" />
                     <Card.Body>
                       <Card.Title>St. Blaize Trail</Card.Title>
                       <Card.Text>
@@ -259,7 +235,7 @@ const MosselBay = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -277,7 +253,7 @@ const MosselBay = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosSantos} />
+                    <Card.Img variant="top" src="/img/mosSantos.jpg" />
                     <Card.Body>
                       <Card.Title>Santos Beach</Card.Title>
                       <Card.Text>
@@ -292,7 +268,7 @@ const MosselBay = () => (
                         <p>Beaches</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -310,7 +286,7 @@ const MosselBay = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosReedValley} />
+                    <Card.Img variant="top" src="/img/mosReedValley.jpg" />
                     <Card.Body>
                       <Card.Title>Reed Valley</Card.Title>
                       <Card.Text>
@@ -325,7 +301,7 @@ const MosselBay = () => (
                         <p>Wineries &amp; Vineyards</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -347,7 +323,7 @@ const MosselBay = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosDias} />
+                    <Card.Img variant="top" src="/img/mosDias.jpg" />
                     <Card.Body>
                       <Card.Title>Bartolomeu Dias Museum Complex</Card.Title>
                       <Card.Text>
@@ -367,7 +343,7 @@ const MosselBay = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosHartenbos} />
+                    <Card.Img variant="top" src="/img/mosHartenbos.jpg" />
                     <Card.Body>
                       <Card.Title>Hartenbos Waterpark</Card.Title>
                       <Card.Text>
@@ -382,7 +358,7 @@ const MosselBay = () => (
                         <p>Water Parks</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -400,7 +376,7 @@ const MosselBay = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosJanine} />
+                    <Card.Img variant="top" src="/img/mosJanine.jpg" />
                     <Card.Body>
                       <Card.Title>Janine Iron &amp; Washing Museum</Card.Title>
                       <Card.Text>
@@ -415,7 +391,7 @@ const MosselBay = () => (
                         <p>Speciality Museums • Historic Museums</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -437,7 +413,7 @@ const MosselBay = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosLighthouse} />
+                    <Card.Img variant="top" src="/img/mosLighthouse.jpg" />
                     <Card.Body>
                       <Card.Title>Cape St. Blaize Lighthouse</Card.Title>
                       <Card.Text>
@@ -457,7 +433,7 @@ const MosselBay = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosDiazExpress} />
+                    <Card.Img variant="top" src="/img/mosDiazExpress.jpg" />
                     <Card.Body>
                       <Card.Title>Diaz Express</Card.Title>
                       <Card.Text>
@@ -473,7 +449,7 @@ const MosselBay = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -491,7 +467,7 @@ const MosselBay = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={mosSeabird} />
+                    <Card.Img variant="top" src="/img/mosSeabird.jpg" />
                     <Card.Body>
                       <Card.Title>Seabird &amp; Pengiuin Rehabilitation Centre</Card.Title>
                       <Card.Text>
@@ -506,7 +482,7 @@ const MosselBay = () => (
                         <p>Educational Sites</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>

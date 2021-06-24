@@ -6,35 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import dolphin from "./dolphin.jpg";
-import activity from "./activity.jpg";
-import outdoor from "./outdoor.jpg";
-import culture from "./culture.jpg";
-import wellness from "./wellness.jpg";
-import nature from "./nature.jpg";
-import wildlife from "./wildlife.jpg";
-import museums from "./museums.jpg";
-import landmark from "./landmark.jpg";
-import shopping from "./shopping.jpg";
-import kragga from "./kragga.jpg";
-import kamma from "./kamma.jpg";
-import karoo from "./karoo.jpg";
-import addo from "./addo.jpg";
-import elephant from "./elephant.jpg";
-import whale from "./whale.jpg";
-import donkin from "./donkin.jpg";
-import port from "./port.jpg";
-import zebra from "./zebra.jpg";
-import coffee from "./coffee.jpg";
-import garden from "./garden.jpg";
-import bridge from "./bridge.jpg";
-import reserve from "./reserve.jpg";
-import baywest from "./baywest.jpg";
-import recife from "./recife.jpg";
-import boardwalk from "./boardwalk.jpg";
-import sardinia from "./sardinia.jpg";
-import penguin from "./penguin.jpg";
-import shamwari from "./shamwari.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -70,61 +41,61 @@ const PortElizabeth = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={dolphin} />
+                <img src="/img/dolphin.jpg" />
                 <div class="description">
                   <h3>Water Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={activity} />
+                <img src="/img/activity.jpg" />
                 <div class="description">
                   <h3>Activity Centres</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={wildlife} />
+                <img src="/img/wildlife.jpg" />
                 <div class="description">
                   <h3>Animal Encounters</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={wellness} />
+                <img src="/img/wellness.jpg" />
                 <div class="description">
                   <h3>Spas &amp; Wellness</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={nature} />
+                <img src="/img/nature.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={museums} />
+                <img src="/img/museums.jpg" />
                 <div class="description">
                   <h3>Museums</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={landmark} />
+                <img src="/img/landmark.jpg" />
                 <div class="description">
                   <h3>Sites &amp; Landmarks</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={shopping} />
+                <img src="/img/shopping.jpg" />
                 <div class="description">
                   <h3>Shopping</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={culture} />
+                <img src="/img/culture.jpg" />
                 <div class="description">
                   <h3>Art & Cultural Attractions</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={outdoor} />
+                <img src="/img/outdoor.jpg" />
                 <div class="description">
                   <h3>Outdoor Tours</h3>
                 </div>
@@ -140,7 +111,7 @@ const PortElizabeth = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={addo} />
+                <img src="/img/addo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -159,18 +130,18 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={zebra} />
+                <img src="/img/zebra.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
                 <div className='description'>
                   <h6>Full day Addo Elephant National Park Safari Tour</h6>
-                  <p>Shore Exursions Tours</p>
+                  <p>Shore Excursions Tours</p>
                   <h6> from R999,99 per adult</h6>
                 </div>
               </div>
               <div className="img">
-                <img src={elephant} />
+                <img src="/img/elephant.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -189,7 +160,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={coffee} />
+                <img src="/img/coffee.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -200,7 +171,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={port} />
+                <img src="/img/port.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -211,7 +182,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={kragga} />
+                <img src="/img/kragga.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -230,7 +201,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={whale} />
+                <img src="/img/whale.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -249,7 +220,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={donkin} />
+                <img src="/img/donkin.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -260,7 +231,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={garden} />
+                <img src="/img/garden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -279,7 +250,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={karoo} />
+                <img src="/img/karoo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -307,7 +278,7 @@ const PortElizabeth = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={addo} />
+                <img src="/img/addo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -326,18 +297,18 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={zebra} />
+                <img src="/img/zebra.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
                 <div className='description'>
                   <h6>Full day Addo Elephant National Park Safari Tour</h6>
-                  <p>Shore Exursions Tours</p>
+                  <p>Shore Excursions Tours</p>
                   <h6> from R999,99 per adult</h6>
                 </div>
               </div>
               <div className="img">
-                <img src={elephant} />
+                <img src="/img/elephant.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -356,7 +327,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={coffee} />
+                <img src="/img/coffee.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -367,7 +338,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={port} />
+                <img src="/img/port.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -378,7 +349,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={kragga} />
+                <img src="/img/kragga.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -397,7 +368,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={whale} />
+                <img src="/img/whale.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -416,7 +387,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={donkin} />
+                <img src="/img/donkin.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -427,7 +398,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={garden} />
+                <img src="/img/garden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -446,7 +417,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={karoo} />
+                <img src="/img/karoo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -476,7 +447,7 @@ const PortElizabeth = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={kamma} />
+                    <Card.Img variant="top" src="/img/kamma.jpg" />
                     <Card.Body>
                       <Card.Title>Kragga Kamma Game Park</Card.Title>
                       <Card.Text>
@@ -492,7 +463,7 @@ const PortElizabeth = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -510,7 +481,7 @@ const PortElizabeth = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={baywest} />
+                    <Card.Img variant="top" src="/img/baywest.jpg" />
                     <Card.Body>
                       <Card.Title>Baywest Mall</Card.Title>
                       <Card.Text>
@@ -525,7 +496,7 @@ const PortElizabeth = () => (
                         <p>Shopping Malls</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -543,7 +514,7 @@ const PortElizabeth = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={boardwalk} />
+                    <Card.Img variant="top" src="/img/boardwalk.jpg" />
                     <Card.Body>
                       <Card.Title>The Boardwalk Casino &amp; Entertainment World</Card.Title>
                       <Card.Text>
@@ -558,7 +529,7 @@ const PortElizabeth = () => (
                         <p>Casinos</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -580,7 +551,7 @@ const PortElizabeth = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={bridge} />
+                    <Card.Img variant="top" src="/img/bridge.jpg" />
                     <Card.Body>
                       <Card.Title>Storms River Bridge (Paul Sauer Bridge)</Card.Title>
                       <Card.Text>
@@ -600,7 +571,7 @@ const PortElizabeth = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={shamwari} />
+                    <Card.Img variant="top" src="/img/shamwari.jpg" />
                     <Card.Body>
                       <Card.Title>Shamwari Private Game Reserve</Card.Title>
                       <Card.Text>
@@ -615,7 +586,7 @@ const PortElizabeth = () => (
                         <p>Nature & Wildlife Areas</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -633,7 +604,7 @@ const PortElizabeth = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={sardinia} />
+                    <Card.Img variant="top" src="/img/sardinia.jpg" />
                     <Card.Body>
                       <Card.Title>Sardinia Bay Beach</Card.Title>
                       <Card.Text>
@@ -648,7 +619,7 @@ const PortElizabeth = () => (
                         <p>Beaches</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -670,7 +641,7 @@ const PortElizabeth = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={reserve} />
+                    <Card.Img variant="top" src="/img/reserve.jpg" />
                     <Card.Body>
                       <Card.Title>The Donkin Reserve</Card.Title>
                       <Card.Text>
@@ -690,7 +661,7 @@ const PortElizabeth = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={recife} />
+                    <Card.Img variant="top" src="/img/recife.jpg" />
                     <Card.Body>
                       <Card.Title>Cape Recife Nature Reserve</Card.Title>
                       <Card.Text>
@@ -706,7 +677,7 @@ const PortElizabeth = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -724,7 +695,7 @@ const PortElizabeth = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={penguin} />
+                    <Card.Img variant="top" src="/img/penguin.jpg" />
                     <Card.Body>
                       <Card.Title>Southern African Foundation for the Conservation of Coastal Birds</Card.Title>
                       <Card.Text>
@@ -739,7 +710,7 @@ const PortElizabeth = () => (
                         <p>Educational Sites</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -766,7 +737,7 @@ const PortElizabeth = () => (
           <div className="multi-day-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={addo} />
+                <img src="/img/addo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -785,7 +756,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={zebra} />
+                <img src="/img/zebra.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -796,7 +767,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={elephant} />
+                <img src="/img/elephant.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -815,7 +786,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={coffee} />
+                <img src="/img/coffee.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -826,7 +797,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={port} />
+                <img src="/img/port.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -837,7 +808,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={kragga} />
+                <img src="/img/kragga.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -856,7 +827,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={whale} />
+                <img src="/img/whale.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -875,7 +846,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={donkin} />
+                <img src="/img/donkin.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -886,7 +857,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={garden} />
+                <img src="/img/garden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -905,7 +876,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={karoo} />
+                <img src="/img/karoo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -933,7 +904,7 @@ const PortElizabeth = () => (
           <div className="shore-excursions">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={kragga} />
+                <img src="/img/kragga.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -952,7 +923,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={coffee} />
+                <img src="/img/coffee.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -963,7 +934,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={port} />
+                <img src="/img/port.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -974,7 +945,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={addo} />
+                <img src="/img/addo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -993,7 +964,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={whale} />
+                <img src="/img/whale.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1012,7 +983,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={donkin} />
+                <img src="/img/donkin.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1023,7 +994,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={garden} />
+                <img src="/img/garden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1042,7 +1013,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={karoo} />
+                <img src="/img/karoo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1061,7 +1032,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={zebra} />
+                <img src="/img/zebra.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1072,7 +1043,7 @@ const PortElizabeth = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={elephant} />
+                <img src="/img/elephant.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>

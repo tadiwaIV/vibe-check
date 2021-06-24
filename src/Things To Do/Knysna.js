@@ -6,47 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import knysnaWildlife from "./knysnaWildlife.jpg";
-import knysnaMulti from "./knysnaMulti.jpg";
-import knysnaHiking from "./knysnaHiking.jpg";
-import knysna4WD from "./knysna4WD.jpg";
-import knysnaMonuments from "./knysnaMonuments.jpg";
-import knysnaHistorical from "./knysnaHistorical.jpg";
-import knysnaCultural from "./knysnaCultural.jpg";
-import knysnaExtreme from "./knysnaExtreme.jpg";
-import knysnaHeadsLagoon from "./knysnaHeadsLagoon.jpg";
-import knysnaDolphin from "./knysnaDolphin.jpg";
-import knysnaGarden from "./knysnaGarden.jpg";
-import knysnaSunsetSailing from "./knysnaSunsetSailing.jpg";
-import knysnaSafari from "./knysnaSafari.jpg";
-import knysnaGardenPortElizabeth from "./knysnaGardenPortElizabeth.jpg";
-import knysnaEcoAdventure from "./knysnaEcoAdventure.jpg";
-import elephant from "./elephant.jpg";
-import knysnaAddo from "./knysnaAddo.jpg";
-import knysnaMotorbike from "./knysnaMotorbike.jpg";
-import knysnaScootours from "./knysnaScootours.jpg";
-import knysnaAddoNationalPark from "./knysnaAddoNationalPark.jpg";
-import knysnaSelfDrive from "./knysnaSelfDrive.jpg";
-import knysnaTsitsikamma from "./knysnaTsitsikamma.jpg";
-import knysnaHeads from "./knysnaHeads.jpg";
-import knysnaElephant from "./knysnaElephant.jpg";
-import knysnaGardenTsitstikamma from "./knysnaGardenTsitsikamma.jpg";
-import knysnaBrenton from "./knysnaBrenton.jpg";
-import knysnaWildOats from "./knysnaWildOats.jpg";
-import knysnaFeatherbed from "./knysnaFeatherbed.jpg";
-import knysnaLagoon from "./knysnaLagoon.jpg";
-import knysnaBuffaloBay from "./knysnaBuffaloBay.jpg";
-import knysnaPrince from "./knysnaPrince.jpg";
-import knysnaCoffee from "./knysnaCoffee.jpg";
-import knysnaWineTasting from "./knysnaWineTasting.jpg";
-import knysnaWineTastingConstantia from "./knysnaWineTastingConstantia.jpg";
-import knysnaGardenAccomodation from "./knysnaGardenAccomodation.jpg";
-import knysnaDaySail from "./knysnaDaySail.jpg";
-import knysnaPaddling from "./knysnaPaddling.jpg";
-import knysnaKayaking from "./knysnaKayaking.jpg";
-import knysnaEco from "./knysnaEco.jpg";
-import knysnaDolphinWatching from "./knysnaDolphinWatching.jpg";
-import knysnaHeadsLagoonAdventure from "./knysnaHeadsLagoonAdventure.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -83,49 +42,49 @@ const Knysna = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={knysnaWildlife} />
+                <img src="/img/knysnaWildlife.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaMulti} />
+                <img src="/img/knysnaMulti.jpg" />
                 <div class="description">
                   <h3>Multi-Day Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaHiking} />
+                <img src="/img/knysnaHiking.jpg" />
                 <div class="description">
                   <h3>Hiking Trails</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={knysna4WD} />
+                <img src="/img/knysna4WD.jpg" />
                 <div class="description">
                   <h3>4WD Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaMonuments} />
+                <img src="/img/knysnaMonuments.jpg" />
                 <div class="description">
                   <h3>Monuments & Statues</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaHistorical} />
+                <img src="/img/knysnaHistorical.jpg" />
                 <div class="description">
                   <h3>Historical Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaCultural} />
+                <img src="/img/knysnaCultural.jpg" />
                 <div class="description">
                   <h3>Cultural Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaExtreme} />
+                <img src="/img/knysnaExtreme.jpg" />
                 <div class="description">
                   <h3>Extreme</h3>
                 </div>
@@ -141,7 +100,7 @@ const Knysna = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={knysnaHeadsLagoon} />
+                <img src="/img/knysnaHeadsLagoon.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -160,7 +119,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaGarden} />
+                <img src="/img/knysnaGarden.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -171,7 +130,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaDolphin} />
+                <img src="/img/knysnaDolphin.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -190,7 +149,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaSunsetSailing} />
+                <img src="/img/knysnaSunsetSailing.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -201,7 +160,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaSafari} />
+                <img src="/img/knysnaSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -220,7 +179,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaGardenPortElizabeth} />
+                <img src="/img/knysnaGardenPortElizabeth.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -239,7 +198,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaEcoAdventure} />
+                <img src="/img/knysnaEcoAdventure.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -267,7 +226,7 @@ const Knysna = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={knysnaAddo} />
+                <img src="/img/knysnaAddo.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -286,7 +245,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaMotorbike} />
+                <img src="/img/knysnaMotorbike.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -297,7 +256,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaScootours} />
+                <img src="/img/knysnaScootours.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -316,7 +275,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaAddoNationalPark} />
+                <img src="/img/knysnaAddoNationalPark.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -327,7 +286,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaSelfDrive} />
+                <img src="/img/knysnaSelfDrive.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -338,7 +297,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaTsitsikamma} />
+                <img src="/img/knysnaTsitsikamma.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -368,7 +327,7 @@ const Knysna = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaHeads} />
+                    <Card.Img variant="top" src="/img/knysnaHeads.jpg" />
                     <Card.Body>
                       <Card.Title>Knysna Heads</Card.Title>
                       <Card.Text>
@@ -384,7 +343,7 @@ const Knysna = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -402,7 +361,7 @@ const Knysna = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaElephant} />
+                    <Card.Img variant="top" src="/img/knysnaElephant.jpg" />
                     <Card.Body>
                       <Card.Title>Knysna Elephant Park</Card.Title>
                       <Card.Text>
@@ -417,7 +376,7 @@ const Knysna = () => (
                         <p>Shopping Malls</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -435,7 +394,7 @@ const Knysna = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaGardenTsitstikamma} />
+                    <Card.Img variant="top" src="/img/knysnaGardenTsitstikamma.jpg" />
                     <Card.Body>
                       <Card.Title>Garden Route (Tsitsikamma, Knysna, Wilderness) National Park</Card.Title>
                       <Card.Text>
@@ -450,7 +409,7 @@ const Knysna = () => (
                         <p>Casinos</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -472,7 +431,7 @@ const Knysna = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaBrenton} />
+                    <Card.Img variant="top" src="/img/knysnaBrenton.jpg" />
                     <Card.Body>
                       <Card.Title>Brenton On Sea</Card.Title>
                       <Card.Text>
@@ -492,7 +451,7 @@ const Knysna = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaFeatherbed} />
+                    <Card.Img variant="top" src="/img/knysnaFeatherbed.jpg" />
                     <Card.Body>
                       <Card.Title>Featherbed Nature Reserve</Card.Title>
                       <Card.Text>
@@ -507,7 +466,7 @@ const Knysna = () => (
                         <p>Nature & Wildlife Areas</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -525,7 +484,7 @@ const Knysna = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaWildOats} />
+                    <Card.Img variant="top" src="/img/knysnaWildOats.jpg" />
                     <Card.Body>
                       <Card.Title>Wild Oats Community Farmers Market</Card.Title>
                       <Card.Text>
@@ -540,7 +499,7 @@ const Knysna = () => (
                         <p>Beaches</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -562,7 +521,7 @@ const Knysna = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaLagoon} />
+                    <Card.Img variant="top" src="/img/knysnaLagoon.jpg" />
                     <Card.Body>
                       <Card.Title>Knysna Lagoon</Card.Title>
                       <Card.Text>
@@ -582,7 +541,7 @@ const Knysna = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaBuffaloBay} />
+                    <Card.Img variant="top" src="/img/knysnaBuffaloBay.jpg" />
                     <Card.Body>
                       <Card.Title>Buffalo Bay</Card.Title>
                       <Card.Text>
@@ -598,7 +557,7 @@ const Knysna = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -616,7 +575,7 @@ const Knysna = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={knysnaPrince} />
+                    <Card.Img variant="top" src="/img/knysnaPrince.jpg" />
                     <Card.Body>
                       <Card.Title>Prince Alfred Pass</Card.Title>
                       <Card.Text>
@@ -631,7 +590,7 @@ const Knysna = () => (
                         <p>Educational Sites</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -658,7 +617,7 @@ const Knysna = () => (
           <div className="multi-day-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={knysnaGardenAccomodation} />
+                <img src="/img/knysnaGardenAccomodation.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -677,7 +636,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaCoffee} />
+                <img src="/img/knysnaCoffee.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -687,7 +646,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaWineTasting} />
+                <img src="/img/knysnaWineTasting.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -706,7 +665,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaWineTastingConstantia} />
+                <img src="/img/knysnaWineTastingConstantia.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -717,7 +676,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaDaySail} />
+                <img src="/img/knysnaDaySail.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -737,7 +696,7 @@ const Knysna = () => (
           <div className="shore-excursions">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={knysnaPaddling} />
+                <img src="/img/knysnaPaddling.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -755,7 +714,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaKayaking} />
+                <img src="/img/knysnaKayaking.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -765,7 +724,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaEco} />
+                <img src="/img/knysnaEco.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -783,7 +742,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaDolphinWatching} />
+                <img src="/img/knysnaDolphinWatching.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -802,7 +761,7 @@ const Knysna = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={knysnaHeadsLagoonAdventure} />
+                <img src="/img/knysnaHeadsLagoonAdventure.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>

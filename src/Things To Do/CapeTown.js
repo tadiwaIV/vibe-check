@@ -6,62 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import capeWaterTours from "./capeWaterTours.jpg";
-import capeTipsy from "./capeTourTipsy.jpg";
-import capeGoodHopePoint from "./capeGoodHopePoint.jpg";
-import capeStellenboschWineTasting from "./capeStellenboschWineTasting.jpg";
-import capeDineSunset from "./capeDineSunset.jpg";
-import capeInternationalBartender from "./capeInternationalBartender.jpg";
-import capeAfricanStoryTours from "./capeAfricanStoryTours.jpg";
-import capeStellenboschFranschhoek from "./capeStellenboschFranschhoek.jpg";
-import capeFullDayTour from "./capeFullDayTour.jpg";
-import capeSafari from "./capeSafari.jpg";
-import capeStellenboschHalfDay from "./capeStellenboschHalfDay.jpg";
-import capeCruiseDine from "./capeCruiseDine.jpg";
-import capeStellenboschWinelands from "./capeStellenboschWinelands.jpg";
-import capeFranschhoekTram from "./capeFranschhoekTram.jpg";
-import capeAquila from "./capeAquila.jpg";
-import capeAquilaSafari from "./capeAquilaSafari.jpg";
-import capeCoastalMotor from "./capeCoastalMotor.jpg";
-import capeGlamping from "./capeGlamping.jpg";
-import cape2DaySafari from "./cape2DaySafari.jpg";
-import capeAddoSafari from "./capeAddoSafari.jpg";
-import capeBeerTasting from "./capeBeerTasting.jpg";
-import capeHotAirBalloon from "./capeHotAirBalloon.jpg";
-import capeBigFiveSafari from "./capeBigFiveSafari.jpg";
-import capeOceanWildlife from "./capeOceanWildlife.jpg";
-import capeGardenRoute from "./capeGardenRoute.jpg";
-import capeWineTasting from "./capeWineTasting.jpg";
-import capeCulture from "./capeCulture.jpg";
-import capeSimons from "./capeSimons.jpg";
-import capeCentral from "./capeCentral.jpg";
-import capeConstantia from "./capeConstantia.jpg";
-import capeSomerest from "./capeSomerest.jpg";
-import capeSpas from "./capeSpas.jpg";
-import capeNature from "./capeNature.jpg";
-import capeCruise from "./capeCruise.jpg";
-import museums from "./museums.jpg";
-import capeFood from "./capeFood.jpg";
-import capeActivity from "./capeActivity.jpg";
-import capeCostalMotor from "./capeCostalMotor.jpg";
-import capeCableway from "./capeCableway.jpg";
-import capeGoodHopePenguin from "./capeGoodHopePenguin.jpg";
-import capeGoodHope from "./capeGoodHope.jpg";
-import capeSightseeing from "./capeSightseeing.jpg";
-import capeSunsetCruise from "./capeSunsetCruise.jpg";
-import capeAfricanStory from "./capeAfricanStory.jpg";
-import capePointPenguins from "./capePointPenguins.jpg";
-import capeFranschhoek from "./capeFranschhoek.jpg";
-import capeWineFarms from "./capeWineFarms.jpg";
-import capePointTableMountain from "./capePointTableMountain.jpg";
-import capeTableMountain from "./capeTableMountain.jpg";
-import capeNatureReserve from "./capeNatureReserve.jpg";
-import capeVictoria from "./capeVictoria.jpg";
-import capeSealIsland from "./capeSealIsland.jpg";
-import capeLionsHead from "./capeLionsHead.jpg";
-import capeBouldersPenguins from "./capeBouldersPenguins.jpg";
-import capeVergelegen from "./capeVergelegen.jpg";
-import capeChapmansPeak from "./capeChapmansPeak.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -97,49 +41,49 @@ const CapeTown = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={capeWaterTours} />
+                <img src="/img/capeWaterTours.jpg" />
                 <div class="description">
                   <h3>Water Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeTipsy} />
+                <img src="/img/capeTipsy.jpg" />
                 <div class="description">
                   <h3>Tours to get Tipsy</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeCruise} />
+                <img src="/img/capeCruise.jpg" />
                 <div class="description">
                   <h3>Cruises &amp; Sailing</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeSpas} />
+                <img src="/img/capeSpas.jpg" />
                 <div class="description">
                   <h3>Spas &amp; Wellness</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeNature} />
+                <img src="/img/capeNature.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeFood} />
+                <img src="/img/capeFood.jpg" />
                 <div class="description">
                   <h3>Food &amp; Drink</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeActivity} />
+                <img src="/img/capeActivity.jpg" />
                 <div class="description">
                   <h3>Activity Centers</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeCulture} />
+                <img src="/img/capeCulture.jpg" />
                 <div class="description">
                   <h3>Art & Cultural Attractions</h3>
                 </div>
@@ -154,25 +98,25 @@ const CapeTown = () => (
           <div className="popular-places">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={capeSimons} />
+                <img src="/img/capeSimons.jpg" />
                 <div class="description">
                   <h3>Simon's Town</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeCentral} />
+                <img src="/img/capeCentral.jpg" />
                 <div class="description">
                   <h3>Cape Town Central</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeConstantia} />
+                <img src="/img/capeConstantia.jpg" />
                 <div class="description">
                   <h3>Constania</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={capeSomerest} />
+                <img src="/img/capeSomerest.jpg" />
                 <div class="description">
                   <h3>Somerest West</h3>
                 </div>
@@ -188,7 +132,7 @@ const CapeTown = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={capeGoodHope} />
+                <img src="/img/capeGoodHope.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -207,7 +151,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeFranschhoek} />
+                <img src="/img/capeFranschhoek.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -218,7 +162,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeSightseeing} />
+                <img src="/img/capeSightseeing.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -237,7 +181,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeWineFarms} />
+                <img src="/img/capeWineFarms.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -248,7 +192,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capePointPenguins} />
+                <img src="/img/capePointPenguins.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -259,7 +203,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeCostalMotor} />
+                <img src="/img/capeCostalMotor.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -278,7 +222,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeSunsetCruise} />
+                <img src="/img/capeSunsetCruise.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -297,7 +241,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeAfricanStory} />
+                <img src="/img/capeAfricanStory.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -308,7 +252,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capePointTableMountain} />
+                <img src="/img/capePointTableMountain.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -327,7 +271,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeGoodHopePenguin} />
+                <img src="/img/capeGoodHopePenguin.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -357,7 +301,7 @@ const CapeTown = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeCableway} />
+                    <Card.Img variant="top" src="/img/capeCableway.jpg" />
                     <Card.Body>
                       <Card.Title>Table Mountain Aerial Cableway</Card.Title>
                       <Card.Text>
@@ -373,7 +317,7 @@ const CapeTown = () => (
                         <p>Open Now</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={capeSightseeing} />
+                          <Card.Img variant="top" src="/img/capeSightseeing.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -391,7 +335,7 @@ const CapeTown = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeVictoria} />
+                    <Card.Img variant="top" src="/img/capeVictoria.jpg" />
                     <Card.Body>
                       <Card.Title>Victoria &amp; Alfred Waterfront</Card.Title>
                       <Card.Text>
@@ -407,7 +351,7 @@ const CapeTown = () => (
                         <p>Open Now</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={capeSightseeing} />
+                          <Card.Img variant="top" src="/img/capeSightseeing.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -425,7 +369,7 @@ const CapeTown = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeLionsHead} />
+                    <Card.Img variant="top" src="/img/capeLionsHead.jpg" />
                     <Card.Body>
                       <Card.Title>Lions Head</Card.Title>
                       <Card.Text>
@@ -440,7 +384,7 @@ const CapeTown = () => (
                         <p>Mountains</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={capeSightseeing} />
+                          <Card.Img variant="top" src="/img/capeSightseeing.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -462,7 +406,7 @@ const CapeTown = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeTableMountain} />
+                    <Card.Img variant="top" src="/img/capeTableMountain.jpg" />
                     <Card.Body>
                       <Card.Title>Table Mountain</Card.Title>
                       <Card.Text>
@@ -482,7 +426,7 @@ const CapeTown = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeChapmansPeak} />
+                    <Card.Img variant="top" src="/img/capeChapmansPeak.jpg" />
                     <Card.Body>
                       <Card.Title>Chapman's Peak Drive</Card.Title>
                       <Card.Text>
@@ -497,7 +441,7 @@ const CapeTown = () => (
                         <p>Scenic Drive</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={capeSightseeing} />
+                          <Card.Img variant="top" src="/img/capeSightseeing.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -515,7 +459,7 @@ const CapeTown = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeBouldersPenguins} />
+                    <Card.Img variant="top" src="/img/capeBouldersPenguins.jpg" />
                     <Card.Body>
                       <Card.Title>Boulders Beach Penguin Colony</Card.Title>
                       <Card.Text>
@@ -531,7 +475,7 @@ const CapeTown = () => (
                         <p>Open Now</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={capeSightseeing} />
+                          <Card.Img variant="top" src="/img/capeSightseeing.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -553,7 +497,7 @@ const CapeTown = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeNatureReserve} />
+                    <Card.Img variant="top" src="/img/capeNatureReserve.jpg" />
                     <Card.Body>
                       <Card.Title>Cape Point Nature Reserve</Card.Title>
                       <Card.Text>
@@ -573,7 +517,7 @@ const CapeTown = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeSealIsland} />
+                    <Card.Img variant="top" src="/img/capeSealIsland.jpg" />
                     <Card.Body>
                       <Card.Title>Seal Island</Card.Title>
                       <Card.Text>
@@ -589,7 +533,7 @@ const CapeTown = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={capeSightseeing} />
+                          <Card.Img variant="top" src="/img/capeSightseeing.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -607,7 +551,7 @@ const CapeTown = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={capeVergelegen} />
+                    <Card.Img variant="top" src="/img/capeVergelegen.jpg" />
                     <Card.Body>
                       <Card.Title>Vergelegen Estate</Card.Title>
                       <Card.Text>
@@ -622,7 +566,7 @@ const CapeTown = () => (
                         <p>Wineries &amp; Vineyards</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={capeSightseeing} />
+                          <Card.Img variant="top" src="/img/capeSightseeing.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -649,7 +593,7 @@ const CapeTown = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={capeDineSunset} />
+                <img src="/img/capeDineSunset.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -668,7 +612,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeInternationalBartender} />
+                <img src="/img/capeInternationalBartender.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -679,7 +623,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeAfricanStoryTours} />
+                <img src="/img/capeAfricanStoryTours.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -698,7 +642,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeStellenboschFranschhoek} />
+                <img src="/img/capeStellenboschFranschhoek.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -709,7 +653,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeFullDayTour} />
+                <img src="/img/capeFullDayTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -720,7 +664,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeSafari} />
+                <img src="/img/capeSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -739,7 +683,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeStellenboschHalfDay} />
+                <img src="/img/capeStellenboschHalfDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -758,7 +702,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeCruiseDine} />
+                <img src="/img/capeCruiseDine.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -769,7 +713,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeStellenboschWinelands} />
+                <img src="/img/capeStellenboschWinelands.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -788,7 +732,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeFranschhoekTram} />
+                <img src="/img/capeFranschhoekTram.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -816,7 +760,7 @@ const CapeTown = () => (
           <div className="multi-day-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={capeAquilaSafari} />
+                <img src="/img/capeAquilaSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -835,7 +779,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeGlamping} />
+                <img src="/img/capeGlamping.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -846,7 +790,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={cape2DaySafari} />
+                <img src="/img/cape2DaySafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -865,7 +809,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeAddoSafari} />
+                <img src="/img/capeAddoSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -876,7 +820,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeAquila} />
+                <img src="/img/capeAquila.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -887,7 +831,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeCoastalMotor} />
+                <img src="/img/capeCoastalMotor.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -906,7 +850,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeHotAirBalloon} />
+                <img src="/img/capeHotAirBalloon.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -925,7 +869,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeOceanWildlife} />
+                <img src="/img/capeOceanWildlife.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -936,7 +880,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeBeerTasting} />
+                <img src="/img/capeBeerTasting.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -955,7 +899,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeBigFiveSafari} />
+                <img src="/img/capeBigFiveSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -983,7 +927,7 @@ const CapeTown = () => (
           <div className="shore-excursions">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={capeCostalMotor} />
+                <img src="/img/capeCostalMotor.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1002,7 +946,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeWineFarms} />
+                <img src="/img/capeWineFarms.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1013,7 +957,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeGardenRoute} />
+                <img src="/img/capeGardenRoute.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1024,7 +968,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeWineTasting} />
+                <img src="/img/capeWineTasting.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1043,7 +987,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeSunsetCruise} />
+                <img src="/img/capeSunsetCruise.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1062,7 +1006,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeGoodHopePoint} />
+                <img src="/img/capeGoodHopePoint.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1073,7 +1017,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capePointTableMountain} />
+                <img src="/img/capePointTableMountain.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1092,7 +1036,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeGoodHopePenguin} />
+                <img src="/img/capeGoodHopePenguin.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1111,7 +1055,7 @@ const CapeTown = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={capeStellenboschWineTasting} />
+                <img src="/img/capeStellenboschWineTasting.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>

@@ -6,63 +6,6 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import durban4WD from "./durban4WD.jpg";
-import elephant from "./durban4WD.jpg";
-import durbanExtreme from "./durbanExtreme.jpg";
-import durbanHiking from "./durbanHiking.jpg";
-import durbanDayTrips from "./durbanDayTrips.jpg";
-import durbanWildlife from "./durbanWildlife.jpg";
-import durbanMuseums from "./durbanMuseums.jpg";
-import durbanArchaeology from "./durbanArchaeology.jpg";
-import durbanArt from "./durbanArt.jpg";
-import durbanCultural from "./durbanCultural.jpg";
-import durbanHistoric from "./durbanHistoric.jpg";
-import durbanGondola from "./durbanGondola.jpg";
-import durbanBikes from "./durbanBikes.jpg";
-import durbanPicnic from "./durbanPicnic.jpg";
-import durbanBig5 from "./durbanBig5.jpg";
-import durbanAngloZulu from "./durbanAngloZulu.jpg";
-import durbanLuxuryCruise from "./durbanLuxuryCruise.jpg";
-import durbanGondolaNight from "./durbanGondolaNight.jpg";
-import durbanNatalLionPark from "./durbanNatalLionPark.jpg";
-import durbanOracle from "./durbanOracle.jpg";
-import durbanPedal from "./durbanPedal.jpg";
-import durbanHluhluwe from "./durbanHluhluwe.jpg";
-import durbanHluhluweBig5 from "./durbanHluhluweBig5.jpg";
-import durbanPrivateHalfDay from "./durbanPrivateHalfDay.jpg";
-import durbanPhezulu from "./durbanPhezulu.jpg";
-import durbanTalaMini from "./durbanTalaMini.jpg";
-import durbanPhezuluReptilePark from "./durbanPhezuluReptilePark.jpg";
-import durbanValley from "./durbanValley.jpg";
-import durbanHluhluweImfolozi from "./durbanHluhluweImfolozi.jpg";
-import durbanUshaka from "./durbanUshaka.jpg";
-import durbanValley1000Hills from "./durbanValley1000Hills.jpg";
-import durbanBotanicGardens from "./durbanBotanicGardens.jpg";
-import durbanUshakaWetWild from "./durbanUshakaWetWild.jpg";
-import durbanMoses from "./durbanMoses.jpg";
-import durbanGoldenMile from "./durbanGoldenMile.jpg";
-import durbanUmgeni from "./durbanUmgeni.jpg";
-import durbanSuncoast from "./durbanSuncoast.jpg";
-import durbanHluhluweImfoloziUltimate from "./durbanHluhluweImfoloziUltimate.jpg";
-import durbanTala from "./durbanTala.jpg";
-import durbanBig5Safari from "./durbanBig5Safari.jpg";
-import durbanHerbalist from "./durbanHerbalist.jpg";
-import durbanHalfDaySafari from "./durbanHalfDaySafari.jpg";
-import durbanDumazulu from "./durbanDumazulu.jpg";
-import durbanPhezuluPrivateSafari from "./durbanPhezuluPrivateSafari.jpg";
-import durbanSaniPass from "./durbanSaniPass.jpg";
-import durbanNatalTala from "./durbanNatalTala.jpg";
-import durbanContinuousSafari from "./durbanContinuousSafari.jpg";
-import durbanSaniPassWalking from "./durbanSaniPassWalking.jpg";
-import durbanInnerCityJewels from "./durbanInnerCityJewels.jpg";
-import durbanZuluMarket from "./durbanZuluMarket.jpg";
-import durbanNightlife from "./durbanNightlife.jpg";
-import durbanLocal from "./durbanLocal.jpg";
-import durbanWalkingSafari from "./durbanWalkingSafari.jpg";
-import durbanZululand from "./durbanZululand.jpg";
-import durbanDrakensberg from "./durbanDrakensberg.jpg";
-import durbanWalkingTour from "./durbanWalkingTour.jpg";
-import durbanCastleRock from "./durbanCastleRock.jpg";
 
 var carouselSettings = {
   dots: false,
@@ -98,61 +41,61 @@ const Durban = () => (
           <div className="popular-slider">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={durban4WD} />
+                <img src="/img/durban4WD.jpg" />
                 <div class="description">
                   <h3>4WD Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanExtreme} />
+                <img src="/img/durbanExtreme.jpg" />
                 <div class="description">
                   <h3>Extreme</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanHiking} />
+                <img src="/img/durbanHiking.jpg" />
                 <div class="description">
                   <h3>Hiking</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanDayTrips} />
+                <img src="/img/durbanDayTrips.jpg" />
                 <div class="description">
                   <h3>Day Trips</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanWildlife} />
+                <img src="/img/durbanWildlife.jpg" />
                 <div class="description">
                   <h3>Nature &amp; Wildlife</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanMuseums} />
+                <img src="/img/durbanMuseums.jpg" />
                 <div class="description">
                   <h3>Museums</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanArchaeology} />
+                <img src="/img/durbanArchaeology.jpg" />
                 <div class="description">
                   <h3>Archaeology Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanArt} />
+                <img src="/img/durbanArt.jpg" />
                 <div class="description">
                   <h3>Art Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanCultural} />
+                <img src="/img/durbanCultural.jpg" />
                 <div class="description">
                   <h3>Cultural Tours</h3>
                 </div>
               </div>
               <div className="img">
-                <img src={durbanHistoric} />
+                <img src="/img/durbanHistoric.jpg" />
                 <div class="description">
                   <h3>Historical Tours</h3>
                 </div>
@@ -168,7 +111,7 @@ const Durban = () => (
           <div className="ways-to-tour">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={durbanGondola} />
+                <img src="/img/durbanGondola.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -187,7 +130,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanBikes} />
+                <img src="/img/durbanBikes.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -198,7 +141,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanPicnic} />
+                <img src="/img/durbanPicnic.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -217,7 +160,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanBig5} />
+                <img src="/img/durbanBig5.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -228,7 +171,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanAngloZulu} />
+                <img src="/img/durbanAngloZulu.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -239,7 +182,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanLuxuryCruise} />
+                <img src="/img/durbanLuxuryCruise.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -258,7 +201,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanGondolaNight} />
+                <img src="/img/durbanGondolaNight.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -277,7 +220,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanNatalLionPark} />
+                <img src="/img/durbanNatalLionPark.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -288,7 +231,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanOracle} />
+                <img src="/img/durbanOracle.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -307,7 +250,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanPedal} />
+                <img src="/img/durbanPedal.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -335,7 +278,7 @@ const Durban = () => (
           <div className="call-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={durbanHluhluwe} />
+                <img src="/img/durbanHluhluwe.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -354,7 +297,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanHluhluweBig5} />
+                <img src="/img/durbanHluhluweBig5.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -365,7 +308,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanPrivateHalfDay} />
+                <img src="/img/durbanPrivateHalfDay.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -384,7 +327,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanPhezulu} />
+                <img src="/img/durbanPhezulu.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -395,7 +338,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanTalaMini} />
+                <img src="/img/durbanTalaMini.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -406,7 +349,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanPhezuluReptilePark} />
+                <img src="/img/durbanPhezuluReptilePark.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -425,7 +368,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanValley} />
+                <img src="/img/durbanValley.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -444,7 +387,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanHluhluweImfolozi} />
+                <img src="/img/durbanHluhluweImfolozi.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -466,7 +409,7 @@ const Durban = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanUshaka} />
+                    <Card.Img variant="top" src="/img/durbanUshaka.jpg" />
                     <Card.Body>
                       <Card.Title>uShaka Marine World</Card.Title>
                       <Card.Text>
@@ -482,7 +425,7 @@ const Durban = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -500,7 +443,7 @@ const Durban = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanValley1000Hills} />
+                    <Card.Img variant="top" src="/img/durbanValley1000Hills.jpg" />
                     <Card.Body>
                       <Card.Title>The Valley of 1000 Hills</Card.Title>
                       <Card.Text>
@@ -515,7 +458,7 @@ const Durban = () => (
                         <p>Valleys</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -533,7 +476,7 @@ const Durban = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanBotanicGardens} />
+                    <Card.Img variant="top" src="/img/durbanBotanicGardens.jpg" />
                     <Card.Body>
                       <Card.Title>Durban Botanic Gardens</Card.Title>
                       <Card.Text>
@@ -548,7 +491,7 @@ const Durban = () => (
                         <p>Gardens</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -570,7 +513,7 @@ const Durban = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanPhezulu} />
+                    <Card.Img variant="top" src="/img/durbanPhezulu.jpg" />
                     <Card.Body>
                       <Card.Title>Phezulu Safari Park</Card.Title>
                       <Card.Text>
@@ -590,7 +533,7 @@ const Durban = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanUshakaWetWild} />
+                    <Card.Img variant="top" src="/img/durbanUshakaWetWild.jpg" />
                     <Card.Body>
                       <Card.Title>uShaka Wet 'n Wild</Card.Title>
                       <Card.Text>
@@ -605,7 +548,7 @@ const Durban = () => (
                         <p>Water Parks</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -623,7 +566,7 @@ const Durban = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanMoses} />
+                    <Card.Img variant="top" src="/img/durbanMoses.jpg" />
                     <Card.Body>
                       <Card.Title>Moses Mabhida Stadium</Card.Title>
                       <Card.Text>
@@ -638,7 +581,7 @@ const Durban = () => (
                         <p>Arenas &amp; Stadiums</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -660,7 +603,7 @@ const Durban = () => (
               <Carousel interval={null}>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanGoldenMile} />
+                    <Card.Img variant="top" src="/img/durbanGoldenMile.jpg" />
                     <Card.Body>
                       <Card.Title>Golden Mile</Card.Title>
                       <Card.Text>
@@ -680,7 +623,7 @@ const Durban = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanUmgeni} />
+                    <Card.Img variant="top" src="/img/durbanUmgeni.jpg" />
                     <Card.Body>
                       <Card.Title>Umgeni River Bird Park</Card.Title>
                       <Card.Text>
@@ -696,7 +639,7 @@ const Durban = () => (
                         <h6>Admission tickets from ZAR 999.99</h6>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -714,7 +657,7 @@ const Durban = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Card className="mx-auto" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={durbanSuncoast} />
+                    <Card.Img variant="top" src="/img/durbanSuncoast.jpg" />
                     <Card.Body>
                       <Card.Title>Suncoast Casino</Card.Title>
                       <Card.Text>
@@ -729,7 +672,7 @@ const Durban = () => (
                         <p>Casino</p>
 
                         <Card className="mx-auto flex-row flex-wrap author" >
-                          <Card.Img variant="top" src={elephant} />
+                          <Card.Img variant="top" src="/img/elephant.jpg" />
                           <Card.Body>
                             <Card.Text>
                               <p>By <span>area44</span></p>
@@ -756,7 +699,7 @@ const Durban = () => (
           <div className="multi-day-tours">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={durbanHluhluweImfoloziUltimate} />
+                <img src="/img/durbanHluhluweImfoloziUltimate.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -775,7 +718,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanTala} />
+                <img src="/img/durbanTala.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -786,7 +729,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanBig5Safari} />
+                <img src="/img/durbanBig5Safari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -805,7 +748,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanHerbalist} />
+                <img src="/img/durbanHerbalist.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -816,7 +759,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanHalfDaySafari} />
+                <img src="/img/durbanHalfDaySafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -827,7 +770,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanDumazulu} />
+                <img src="/img/durbanDumazulu.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -846,7 +789,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanPhezuluPrivateSafari} />
+                <img src="/img/durbanPhezuluPrivateSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -865,7 +808,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanSaniPass} />
+                <img src="/img/durbanSaniPass.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -876,7 +819,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanNatalTala} />
+                <img src="/img/durbanNatalTala.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -895,7 +838,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanContinuousSafari} />
+                <img src="/img/durbanContinuousSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -923,7 +866,7 @@ const Durban = () => (
           <div className="shore-excursions">
             <Slider {...carouselSettings}>
               <div className="img">
-                <img src={durbanSaniPassWalking} />
+                <img src="/img/durbanSaniPassWalking.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -942,7 +885,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanInnerCityJewels} />
+                <img src="/img/durbanInnerCityJewels.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -953,7 +896,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanZuluMarket} />
+                <img src="/img/durbanZuluMarket.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -964,7 +907,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanNightlife} />
+                <img src="/img/durbanNightlife.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -983,7 +926,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanLocal} />
+                <img src="/img/durbanLocal.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1002,7 +945,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanWalkingSafari} />
+                <img src="/img/durbanWalkingSafari.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1013,7 +956,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanZululand} />
+                <img src="/img/durbanZululand.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1032,7 +975,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanDrakensberg} />
+                <img src="/img/durbanDrakensberg.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1051,7 +994,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanWalkingTour} />
+                <img src="/img/durbanWalkingTour.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
@@ -1062,7 +1005,7 @@ const Durban = () => (
                 </div>
               </div>
               <div className="img">
-                <img src={durbanCastleRock} />
+                <img src="/img/durbanCastleRock.jpg" />
                 <div class="heart">
                   <a href="#"><FontAwesomeIcon className="icon" icon= {faHeart} size="lg" /></a>
                 </div>
